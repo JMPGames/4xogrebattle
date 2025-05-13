@@ -9,7 +9,11 @@ public partial class BoardCreator : Node {
     private const float ROTATION_PER = 90.0f;
     private const string DEFAULT_FILE_NAME = "default";
 
-    [Export] private int _width;
+    [Export] private int _width = 10;
+    [Export] private int _height = 10;
+    [Export] private int _lakeMinSize = 3;
+    [Export] private int _lakeMaxSize = 5;
+    [Export] private double _chanceForLake = 0.5f;
     [Export] public string fileName = DEFAULT_FILE_NAME;
 
     private Node3D _marker;
@@ -98,6 +102,43 @@ public partial class BoardCreator : Node {
             }
         }
         saveFileAccess.Close();
+        _markerPosition = new Vector2I(0, 0);
+        UpdateMarker();
+    }
+
+    public void GenerateMap() {
+        Random rand = new Random();
+        TileType[] weightTerrainTypes = {
+            TileType.GRASS, TileType.GRASS, TileType.GRASS, TileType.GRASS, TileType.GRASS, TileType.GRASS,
+            TileType.GRASS, TileType.GRASS, TileType.GRASS, TileType.GRASS, TileType.GRASS, TileType.GRASS,
+            TileType.FOREST, TileType.FOREST, TileType.FOREST, TileType.FOREST,
+            TileType.MOUNTAIN,
+            TileType.ROCK,
+        };
+        int lakeWidth = rand.Next(_lakeMinSize, Math.Min(_lakeMaxSize + 1, _width - 2));
+        int lakeHeight = rand.Next(_lakeMinSize, Math.Min(_lakeMaxSize + 1, _height - 2));
+        int lakeStartX = rand.Next(1, _width - lakeWidth - 1);
+        int lakeStartY = rand.Next(1, _height - lakeHeight - 1);
+        bool hasLake = rand.NextDouble() <= _chanceForLake;
+        for (int x = 0; x < _width; x++) {
+            for (int y = 0; y < _height; y++) {
+                Vector2I position = new Vector2I(x * 2, y * 2);
+                if (x == 0 || y == 0 || x == _width - 1 || y == _height - 1) {
+                    CreateTileAtPosition(TileType.WATER, position);
+                }
+                else if (
+                    hasLake &&
+                    x >= lakeStartX && x < lakeStartX + lakeWidth &&
+                    y >= lakeStartY && y < lakeStartY + lakeHeight
+                ) {
+                    CreateTileAtPosition(TileType.WATER, position);
+                }
+                else {
+                    TileType tt = weightTerrainTypes[rand.Next(weightTerrainTypes.Length)];
+                    CreateTileAtPosition(tt, position);
+                }
+            }
+        }
         _markerPosition = new Vector2I(0, 0);
         UpdateMarker();
     }

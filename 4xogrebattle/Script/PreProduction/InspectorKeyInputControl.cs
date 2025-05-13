@@ -6,6 +6,14 @@ public partial class InspectorKeyInputControl : Control {
     public override void _GuiInput(InputEvent @event) {
         if (@event is InputEventKey key && key.Pressed) {
             switch (key.Keycode) {
+                case Key.Space:
+                    boardCreator?.Rotate();
+                    break;
+                
+                case Key.Quoteleft:
+                    boardCreator?.RemoveTile();
+                    break;
+
                 case Key.W:
                 case Key.Up:
                     boardCreator?.MoveUp();

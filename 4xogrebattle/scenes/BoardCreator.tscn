@@ -5,4 +5,9 @@
 [node name="BoardC" type="Node3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.48, 0, -1.00459)
 script = ExtResource("1_vwnnc")
+_width = 30
+_height = 25
+_lakeMinSize = 8
+_lakeMaxSize = 15
+_chanceForLake = 0.8
 fileName = "test"

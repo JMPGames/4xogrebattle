@@ -11,8 +11,9 @@ public partial class BoardCreatorInspector : EditorInspectorPlugin {
         BoardCreator bc = @object as BoardCreator;
 
         AddButton("Clear", bc.Clear, new Color(1, 0, 0));
-        AddButton("Rotate Tile", bc.Rotate, new Color(0.2f, 0.2f, 0.2f));
-        AddButton("Remove Tile", bc.RemoveTile, new Color(0.6f, 0.2f, 0.2f));
+        AddButton("Generate Terrian", bc.GenerateMap, new Color(0, 0, 1));
+        AddButton("(SPACE) Rotate Tile", bc.Rotate, new Color(0.2f, 0.2f, 0.2f));
+        AddButton("(`) Remove Tile", bc.RemoveTile, new Color(0.6f, 0.2f, 0.2f));
 
         InspectorKeyInputControl keyInput = new InspectorKeyInputControl {
             CustomMinimumSize = new Vector2(1, 1),
@@ -22,6 +23,7 @@ public partial class BoardCreatorInspector : EditorInspectorPlugin {
         };
         AddCustomControl(keyInput);
         keyInput.CallDeferred("grab_focus");
+        AddButton("Refocus Key Inputs", keyInput.GrabFocus, new Color(0.5f, 0.55f, 0.55f));
 
         AddButton("(G) Place Grass", bc.PlaceGrass, new Color(0.49f, 0.65f, 0.13f));
         AddButton("(R) Place Rock ", bc.PlaceRock, new Color(0.63f, 0.32f, 0.18f));
