@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://di0oof63wjudc"]
+
+[ext_resource type="PackedScene" uid="uid://b2q7aitbggwqm" path="res://assets/models/building-tower.glb" id="1_b8hp4"]
+[ext_resource type="Script" path="res://scripts/components/Tile.cs" id="1_v6by1"]
+
+[node name="TowerTile" type="Node3D"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, 0)
+script = ExtResource("1_v6by1")
+
+[node name="building-tower2" parent="." instance=ExtResource("1_b8hp4")]

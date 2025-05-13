@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://cqol7oaarbt6i"]
+
+[ext_resource type="Script" path="res://scripts/components/Tile.cs" id="1_eejox"]
+[ext_resource type="PackedScene" uid="uid://4i21j6a32hj4" path="res://assets/models/building-castle.glb" id="1_ovcg3"]
+
+[node name="CastleTile" type="Node3D"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, 0)
+script = ExtResource("1_eejox")
+
+[node name="building-castle2" parent="." instance=ExtResource("1_ovcg3")]

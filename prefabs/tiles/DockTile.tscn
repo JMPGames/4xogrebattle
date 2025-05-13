@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://c8junn36sa46f"]
+
+[ext_resource type="PackedScene" uid="uid://dgj8eggi5jrbe" path="res://assets/models/building-dock.glb" id="1_45rg2"]
+[ext_resource type="Script" path="res://scripts/components/Tile.cs" id="1_pcnqe"]
+
+[node name="DockTile" type="Node3D"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, 0)
+script = ExtResource("1_pcnqe")
+
+[node name="building-dock2" parent="." instance=ExtResource("1_45rg2")]

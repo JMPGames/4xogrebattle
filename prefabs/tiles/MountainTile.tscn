@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://ol5r7dbrc10d"]
+
+[ext_resource type="Script" path="res://scripts/components/Tile.cs" id="1_3yvnb"]
+[ext_resource type="PackedScene" uid="uid://dwghtmue20asp" path="res://assets/models/stone-mountain.glb" id="1_bijbk"]
+
+[node name="MountainTile" type="Node3D"]
+transform = Transform3D(0.866025, 0, -0.5, 0, 1, 0, 0.5, 0, 0.866025, 0, 0, 0)
+script = ExtResource("1_3yvnb")
+
+[node name="stone-mountain2" parent="." instance=ExtResource("1_bijbk")]

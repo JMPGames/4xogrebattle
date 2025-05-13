@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://lun6r3keu0kf"]
+
+[ext_resource type="PackedScene" uid="uid://dbwiy5bybeqod" path="res://assets/models/grass.glb" id="1_q8odr"]
+[ext_resource type="PackedScene" uid="uid://bosli2gmh4vfy" path="res://assets/models/grass-forest.glb" id="2_80770"]
+
+[node name="main" type="Node3D"]
+
+[node name="map" type="Node" parent="."]
+
+[node name="grass2" parent="map" instance=ExtResource("1_q8odr")]
+
+[node name="grass-forest2" parent="map" instance=ExtResource("2_80770")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 0)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.59093, 0.806723, 0, -0.806723, 0.59093, 0, 4.49045, 3.73703)
+light_energy = 0.5

@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://ms3dvh42esn5"]
+
+[ext_resource type="PackedScene" uid="uid://dqytsfartt1tl" path="res://assets/models/building-mine.glb" id="1_ciw48"]
+[ext_resource type="Script" path="res://scripts/components/Tile.cs" id="1_ow46a"]
+
+[node name="MineTile" type="Node3D"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, 0)
+script = ExtResource("1_ow46a")
+
+[node name="building-mine2" parent="." instance=ExtResource("1_ciw48")]

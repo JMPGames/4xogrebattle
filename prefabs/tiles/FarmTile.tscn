@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://ccdcc736kn72p"]
+
+[ext_resource type="PackedScene" uid="uid://d3heddkim1gl1" path="res://assets/models/building-farm.glb" id="1_hsnac"]
+[ext_resource type="Script" path="res://scripts/components/Tile.cs" id="1_rf2bm"]
+
+[node name="FarmTile" type="Node3D"]
+transform = Transform3D(0.866025, 0, -0.5, 0, 1, 0, 0.5, 0, 0.866025, 0, 0, 0)
+script = ExtResource("1_rf2bm")
+
+[node name="building-farm2" parent="." instance=ExtResource("1_hsnac")]

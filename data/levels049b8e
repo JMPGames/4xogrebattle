@@ -1,0 +1,20 @@
+{
+	"tiles": [
+		{
+			"positionX": 0,
+			"positionY": 0,
+			"tileType": "GRASS"
+		},
+		{
+			"positionX": 0.866999983787537,
+			"positionY": 0,
+			"tileType": "TREES"
+		},
+		{
+			"positionX": -0.86699998378754,
+			"positionY": 0,
+			"tileType": "HILL"
+		}
+	],
+	"version": "1.0.0"
+}
