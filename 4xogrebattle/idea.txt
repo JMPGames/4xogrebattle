@@ -1,0 +1,56 @@
+Assets:
+	3D:
+		World:
+			https://kenney-assets.itch.io/hexagon-kit
+			https://kaylousberg.itch.io/kaykit-medieval-hexagon
+			https://kaylousberg.itch.io/resource-bits
+		
+		Characters:
+			Friendly:
+				https://kaylousberg.itch.io/kaykit-adventurers
+			
+			Enemies:
+				https://kaylousberg.itch.io/kaykit-skeletons
+	
+	2D:
+		https://pixelfrog-assets.itch.io/tiny-swords
+		World:
+		
+		Characters:
+	
+Idea:
+	!!Try to keep simple!!
+	Game is about going from location to location clearing out the enemies in a Ogre Battle/Symphony of War style.
+	Enemies on map spawn from certain tiles (caves, portals, etc).
+    Player must move to these tiles, beat a boss/mini boss, to destroy the spawner.
+	Player can earn gold on map, by recapturing building tiles, or defeating enemies
+	Player can buy and equip units with gear inbetween levels.
+    Gear should be kept simple to reduce balancing scope. Weapon and Armor only?
+    Gear progression should be like Valkyrie Profile, where inbetween each level you get better options
+	
+Entity script
+Build out entities and definitions for each building type
+Build out player and enemy entites and definitions
+Link Entities with Tile script
+Add in inputs to move the TileSelector in game, or hovering tiles with mouse
+Add in "select" action on selected or clicked tile, giving player options based on Entity linked to tile
+Buildings to heal player units, when units occupy building tile
+Selecting building tile shows occupying units, and other options if added?
+Set up building tiles that need to be secured, with option for regular/mini boss/boss battle.
+Set up overworld turn based movement
+Fog of war (friendly buildings and units can see whats in tiles X tiles away)
+	Should this be literal fog or darkness, except for around units?
+	Will forest tiles hide entities unless a unit is in adjacent an tile?
+    This will also hide player units from enemy ai
+
+Overworld initiating battle when player and enemy units meet at a tile
+Set up prototype player and enemy classes, with battle actions
+Set up main inventory (small % of items), and unit inventories
+Set up unit inventory/equipment
+Set up building a battle scene with a 2nd camera, loading in the player and enemy units that met
+Set up auto battling system (Symphony of War/Ogre Battle)
+Battle rewards
+
+Set up in between screen, player can buy the new gear, equip the units, buy new units, and adjust the unit groups
+Set up map showing next battle, and clicking to begin
+Player can save inbetween battles

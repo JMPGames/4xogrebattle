@@ -24,14 +24,17 @@ light_energy = 0.5
 
 [node name="BoardController" type="Node3D" parent="GameController"]
 script = ExtResource("2_7b3we")
+_width = 0
 
 [node name="CameraController" type="Node3D" parent="GameController" node_paths=PackedStringArray("_camera")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 10)
 script = ExtResource("3_gdk55")
 _camera = NodePath("Camera3D")
+_moveXLimit = 60.0
+_moveYLimit = 50.0
 
 [node name="Camera3D" type="Camera3D" parent="GameController/CameraController"]
-transform = Transform3D(1, 0, 0, 0, 0.642788, 0.766044, 0, -0.766044, 0.642788, 0, 10, 0)
-projection = 1
+transform = Transform3D(1, 0, 0, 0, 0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 10, 0)
 size = 5.0
 
 [node name="InputController" type="Node" parent="GameController"]

@@ -160,13 +160,13 @@
 			"axialX": 2,
 			"axialY": 2,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "GRASS"
 		},
 		{
 			"axialX": 2,
 			"axialY": 4,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "GRASS"
 		},
 		{
 			"axialX": 2,
@@ -460,13 +460,13 @@
 			"axialX": 6,
 			"axialY": 2,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "GRASS"
 		},
 		{
 			"axialX": 6,
 			"axialY": 4,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "GRASS"
 		},
 		{
 			"axialX": 6,
@@ -579,8 +579,8 @@
 		{
 			"axialX": 6,
 			"axialY": 42,
-			"rotationY": 0,
-			"tileType": "GRASS"
+			"rotationY": -3.14159250259399,
+			"tileType": "MARKET"
 		},
 		{
 			"axialX": 6,
@@ -634,7 +634,7 @@
 			"axialX": 8,
 			"axialY": 10,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "GRASS"
 		},
 		{
 			"axialX": 8,
@@ -760,13 +760,13 @@
 			"axialX": 10,
 			"axialY": 2,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "GRASS"
 		},
 		{
 			"axialX": 10,
 			"axialY": 4,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "GRASS"
 		},
 		{
 			"axialX": 10,
@@ -916,7 +916,7 @@
 			"axialX": 12,
 			"axialY": 4,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "GRASS"
 		},
 		{
 			"axialX": 12,
@@ -957,8 +957,8 @@
 		{
 			"axialX": 12,
 			"axialY": 18,
-			"rotationY": 0,
-			"tileType": "GRASS"
+			"rotationY": -3.14159250259399,
+			"tileType": "TOWER"
 		},
 		{
 			"axialX": 12,
@@ -1227,8 +1227,8 @@
 		{
 			"axialX": 16,
 			"axialY": 8,
-			"rotationY": 0,
-			"tileType": "GRASS"
+			"rotationY": -3.14159250259399,
+			"tileType": "WELL"
 		},
 		{
 			"axialX": 16,
@@ -1372,13 +1372,13 @@
 			"axialX": 18,
 			"axialY": 6,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "GRASS"
 		},
 		{
 			"axialX": 18,
 			"axialY": 8,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "GRASS"
 		},
 		{
 			"axialX": 18,
@@ -1521,7 +1521,7 @@
 		{
 			"axialX": 20,
 			"axialY": 6,
-			"rotationY": 1.57079637050629,
+			"rotationY": 0.000000174845553146952,
 			"tileType": "FARM"
 		},
 		{
@@ -1533,8 +1533,8 @@
 		{
 			"axialX": 20,
 			"axialY": 10,
-			"rotationY": 0,
-			"tileType": "GRASS"
+			"rotationY": -3.14159250259399,
+			"tileType": "MILL"
 		},
 		{
 			"axialX": 20,
@@ -1671,14 +1671,14 @@
 		{
 			"axialX": 22,
 			"axialY": 6,
-			"rotationY": 0,
-			"tileType": "GRASS"
+			"rotationY": -3.14159250259399,
+			"tileType": "HOUSE"
 		},
 		{
 			"axialX": 22,
 			"axialY": 8,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "GRASS"
 		},
 		{
 			"axialX": 22,
@@ -1696,25 +1696,25 @@
 			"axialX": 22,
 			"axialY": 14,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "GRASS"
 		},
 		{
 			"axialX": 22,
 			"axialY": 16,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "GRASS"
 		},
 		{
 			"axialX": 22,
 			"axialY": 18,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "GRASS"
 		},
 		{
 			"axialX": 22,
 			"axialY": 20,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "GRASS"
 		},
 		{
 			"axialX": 22,
@@ -1762,7 +1762,7 @@
 			"axialX": 22,
 			"axialY": 36,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "GRASS"
 		},
 		{
 			"axialX": 22,
@@ -1846,7 +1846,7 @@
 			"axialX": 24,
 			"axialY": 14,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "GRASS"
 		},
 		{
 			"axialX": 24,
@@ -1912,7 +1912,7 @@
 			"axialX": 24,
 			"axialY": 36,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "GRASS"
 		},
 		{
 			"axialX": 24,
@@ -1996,7 +1996,7 @@
 			"axialX": 26,
 			"axialY": 14,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "GRASS"
 		},
 		{
 			"axialX": 26,
@@ -2062,7 +2062,7 @@
 			"axialX": 26,
 			"axialY": 36,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "GRASS"
 		},
 		{
 			"axialX": 26,
@@ -2121,8 +2121,8 @@
 		{
 			"axialX": 28,
 			"axialY": 6,
-			"rotationY": 0,
-			"tileType": "GRASS"
+			"rotationY": -3.14159250259399,
+			"tileType": "LUMBERMILL"
 		},
 		{
 			"axialX": 28,
@@ -2212,7 +2212,7 @@
 			"axialX": 28,
 			"axialY": 36,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "GRASS"
 		},
 		{
 			"axialX": 28,
@@ -2577,8 +2577,8 @@
 		{
 			"axialX": 34,
 			"axialY": 8,
-			"rotationY": 0,
-			"tileType": "ROCK"
+			"rotationY": -1.570796251297,
+			"tileType": "TOWER"
 		},
 		{
 			"axialX": 34,
@@ -2643,8 +2643,8 @@
 		{
 			"axialX": 34,
 			"axialY": 30,
-			"rotationY": 0,
-			"tileType": "WATER"
+			"rotationY": 1.57079637050629,
+			"tileType": "MARKET"
 		},
 		{
 			"axialX": 34,
@@ -2758,13 +2758,13 @@
 			"axialX": 36,
 			"axialY": 18,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "GRASS"
 		},
 		{
 			"axialX": 36,
 			"axialY": 20,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "GRASS"
 		},
 		{
 			"axialX": 36,
@@ -2794,7 +2794,7 @@
 			"axialX": 36,
 			"axialY": 30,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "ROCK"
 		},
 		{
 			"axialX": 36,
@@ -2811,8 +2811,8 @@
 		{
 			"axialX": 36,
 			"axialY": 36,
-			"rotationY": 0,
-			"tileType": "WATER"
+			"rotationY": 0.000000174845553146952,
+			"tileType": "CASTLE"
 		},
 		{
 			"axialX": 36,
@@ -2908,19 +2908,19 @@
 			"axialX": 38,
 			"axialY": 18,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "GRASS"
 		},
 		{
 			"axialX": 38,
 			"axialY": 20,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "GRASS"
 		},
 		{
 			"axialX": 38,
 			"axialY": 22,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "GRASS"
 		},
 		{
 			"axialX": 38,
@@ -2944,7 +2944,7 @@
 			"axialX": 38,
 			"axialY": 30,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "ROCK"
 		},
 		{
 			"axialX": 38,
@@ -2962,7 +2962,7 @@
 			"axialX": 38,
 			"axialY": 36,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "MOUNTAIN"
 		},
 		{
 			"axialX": 38,
@@ -2974,13 +2974,13 @@
 			"axialX": 38,
 			"axialY": 40,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "GRASS"
 		},
 		{
 			"axialX": 38,
 			"axialY": 42,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "GRASS"
 		},
 		{
 			"axialX": 38,
@@ -3124,22 +3124,22 @@
 			"axialX": 40,
 			"axialY": 40,
 			"rotationY": 0,
-			"tileType": "FOREST"
-		},
-		{
-			"axialX": 40,
-			"axialY": 42,
-			"rotationY": 0,
 			"tileType": "GRASS"
 		},
 		{
 			"axialX": 40,
-			"axialY": 44,
+			"axialY": 42,
 			"rotationY": 0,
 			"tileType": "GRASS"
 		},
 		{
 			"axialX": 40,
+			"axialY": 44,
+			"rotationY": 0,
+			"tileType": "GRASS"
+		},
+		{
+			"axialX": 40,
 			"axialY": 46,
 			"rotationY": 0,
 			"tileType": "GRASS"
@@ -3268,13 +3268,13 @@
 			"axialX": 42,
 			"axialY": 38,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "ROCK"
 		},
 		{
 			"axialX": 42,
 			"axialY": 40,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "ROCK"
 		},
 		{
 			"axialX": 42,
@@ -3412,13 +3412,13 @@
 			"axialX": 44,
 			"axialY": 36,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "ROCK"
 		},
 		{
 			"axialX": 44,
 			"axialY": 38,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "ROCK"
 		},
 		{
 			"axialX": 44,
@@ -3430,7 +3430,7 @@
 			"axialX": 44,
 			"axialY": 42,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "ROCK"
 		},
 		{
 			"axialX": 44,
@@ -3556,31 +3556,31 @@
 			"axialX": 46,
 			"axialY": 34,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "ROCK"
 		},
 		{
 			"axialX": 46,
 			"axialY": 36,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "ROCK"
 		},
 		{
 			"axialX": 46,
 			"axialY": 38,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "ROCK"
 		},
 		{
 			"axialX": 46,
 			"axialY": 40,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "ROCK"
 		},
 		{
 			"axialX": 46,
 			"axialY": 42,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "ROCK"
 		},
 		{
 			"axialX": 46,
@@ -3712,25 +3712,25 @@
 			"axialX": 48,
 			"axialY": 36,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "ROCK"
 		},
 		{
 			"axialX": 48,
 			"axialY": 38,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "ROCK"
 		},
 		{
 			"axialX": 48,
 			"axialY": 40,
-			"rotationY": 0,
-			"tileType": "GRASS"
+			"rotationY": -3.14159250259399,
+			"tileType": "MINE"
 		},
 		{
 			"axialX": 48,
 			"axialY": 42,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "ROCK"
 		},
 		{
 			"axialX": 48,
@@ -3856,19 +3856,19 @@
 			"axialX": 50,
 			"axialY": 34,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "ROCK"
 		},
 		{
 			"axialX": 50,
 			"axialY": 36,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "ROCK"
 		},
 		{
 			"axialX": 50,
 			"axialY": 38,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "ROCK"
 		},
 		{
 			"axialX": 50,
@@ -3880,7 +3880,7 @@
 			"axialX": 50,
 			"axialY": 42,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "ROCK"
 		},
 		{
 			"axialX": 50,
@@ -4018,19 +4018,19 @@
 			"axialX": 52,
 			"axialY": 38,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "ROCK"
 		},
 		{
 			"axialX": 52,
 			"axialY": 40,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "ROCK"
 		},
 		{
 			"axialX": 52,
 			"axialY": 42,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "ROCK"
 		},
 		{
 			"axialX": 52,
@@ -4174,7 +4174,7 @@
 			"axialX": 54,
 			"axialY": 40,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "ROCK"
 		},
 		{
 			"axialX": 54,
@@ -4186,13 +4186,13 @@
 			"axialX": 54,
 			"axialY": 44,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "MOUNTAIN"
 		},
 		{
 			"axialX": 54,
 			"axialY": 46,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "GRASS"
 		},
 		{
 			"axialX": 54,

@@ -4,13 +4,10 @@ public partial class CameraController : Node3D {
     private const float ROTATION_SPEED = 1.0f;    
 
     [Export] private Camera3D _camera;
+    [Export] private float _moveXLimit;
+    [Export] private float _moveYLimit;
 
-    private Vector2 _moveLimit = new Vector2(10.0f, 10.0f);
     private float _yawRotation = 0.0f;
-
-    public void Setup(Vector2 moveLimit) {
-        _moveLimit = moveLimit;
-    }
 
     public void CameraMove(Vector3 direction) {
         direction.Y = 0;
@@ -25,8 +22,8 @@ public partial class CameraController : Node3D {
 
     private void ClampPosition() {
         Vector3 position = Position;
-        position.X = Mathf.Clamp(position.X, -_moveLimit.X / 2, _moveLimit.X / 2);
-        position.Z = Mathf.Clamp(position.Z, -_moveLimit.Y / 2, _moveLimit.Y / 2);
+        position.X = Mathf.Clamp(position.X, 0, _moveXLimit);
+        position.Z = Mathf.Clamp(position.Z, 0, _moveYLimit);
         position.Y = 0;
         Position = position;
     }

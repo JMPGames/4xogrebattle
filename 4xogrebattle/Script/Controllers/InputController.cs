@@ -9,7 +9,7 @@ public partial class InputController: Node {
     [Signal] public delegate void ActionEventHandler(int button);
     [Signal] public delegate void QuitEventHandler();
 
-    private const float CAMERA_MOVE_SPEED = 5.0f;
+    private const float CAMERA_MOVE_SPEED = 10.0f;
     private const float MOUSE_VECTOR_LIMIT = 300.0f;
 
     private string[] _actionButtons = new string[4] {"select", "cancel", "info", "menu"};

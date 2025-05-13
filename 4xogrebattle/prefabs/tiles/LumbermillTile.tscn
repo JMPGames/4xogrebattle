@@ -5,6 +5,7 @@
 [ext_resource type="Script" path="res://Script/Components/Tile.cs" id="3_xrt8v"]
 
 [node name="LumberMillTile" type="Node3D"]
+script = ExtResource("3_xrt8v")
 
 [node name="grass_gltf" parent="." instance=ExtResource("1_d7o6n")]
 

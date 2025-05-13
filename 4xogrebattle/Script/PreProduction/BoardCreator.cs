@@ -123,10 +123,7 @@ public partial class BoardCreator : Node {
         for (int x = 0; x < _width; x++) {
             for (int y = 0; y < _height; y++) {
                 Vector2I position = new Vector2I(x * 2, y * 2);
-                if (x == 0 || y == 0 || x == _width - 1 || y == _height - 1) {
-                    CreateTileAtPosition(TileType.WATER, position);
-                }
-                else if (
+                if (
                     hasLake &&
                     x >= lakeStartX && x < lakeStartX + lakeWidth &&
                     y >= lakeStartY && y < lakeStartY + lakeHeight
