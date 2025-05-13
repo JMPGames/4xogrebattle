@@ -1,3 +1,4 @@
+using System;
 using Godot;
 
 [Tool]
@@ -9,104 +10,41 @@ public partial class BoardCreatorInspector : EditorInspectorPlugin {
     public override void _ParseBegin(GodotObject @object) {
         BoardCreator bc = @object as BoardCreator;
 
-        Button clearButton = new Button {Text = "Clear"};
-        clearButton.Pressed += bc.Clear;
-        AddCustomControl(clearButton);
+        AddButton("Clear", bc.Clear, new Color(1, 0, 0));
+        AddButton("Rotate Tile", bc.Rotate, new Color(0.2f, 0.2f, 0.2f));
+        AddButton("Remove Tile", bc.RemoveTile, new Color(0.6f, 0.2f, 0.2f));
 
-        Button rotateButton = new Button {Text = "Rotate Tile"};
-        rotateButton.Pressed += bc.Rotate;
-        AddCustomControl(rotateButton);
+        AddButton("Move Up Left", bc.MoveUpLeft, new Color(0, 0, 0));
+        AddButton("Move Up Right", bc.MoveUpRight, new Color(0, 0, 0));
+        AddButton("Move Left", bc.MoveLeft, new Color(0, 0, 0));
+        AddButton("Move Right", bc.MoveRight, new Color(0, 0, 0));
+        AddButton("Move Down Left", bc.MoveDownLeft, new Color(0, 0, 0));
+        AddButton("Move Down Right", bc.MoveDownRight, new Color(0, 0, 0));
 
-        Button removeTileButton = new Button {Text = "Remove Tile"};
-        removeTileButton.Pressed += bc.RemoveTile;
-        AddCustomControl(removeTileButton);
+        AddButton("Place Grass", bc.PlaceGrass, new Color(0.49f, 0.65f, 0.13f));
+        AddButton("Place Trees", bc.PlaceTrees, new Color(0.25f, 0.46f, 0.02f));
+        AddButton("Place Hill", bc.PlaceHill, new Color(0.63f, 0.32f, 0.18f));
+        AddButton("Place Mountain", bc.PlaceMountain, new Color(0.5f, 0.55f, 0.55f));
+        AddButton("Place Water", bc.PlaceWater, new Color(0.2f, 0.4f, 1f));
+        AddButton("Place Sand", bc.PlaceSand, new Color(0.66f, 0.59f, 0.41f));
 
-        Button upLeftButton = new Button {Text = "Move Up Left"};
-        upLeftButton.Pressed += bc.MoveUpLeft;
-        AddCustomControl(upLeftButton);
+        AddButton("Place Farm", bc.PlaceFarm, new Color(0.49f, 0.65f, 0.13f));
+        AddButton("Place House", bc.PlaceHouse, new Color(0.63f, 0.32f, 0.18f));
+        AddButton("Place Castle", bc.PlaceCastle, new Color(0.5f, 0.55f, 0.55f));
+        AddButton("Place Dock", bc.PlaceDock, new Color(0.2f, 0.4f, 1f));
+        AddButton("Place Mine", bc.PlaceMine, new Color(0.5f, 0.55f, 0.55f));
+        AddButton("Place Blacksmith", bc.PlaceBlacksmith, new Color(0.5f, 0.55f, 0.55f));
+        AddButton("Place Tower", bc.PlaceTower, new Color(0.5f, 0.55f, 0.55f));
+        AddButton("Place Animals", bc.PlaceAnimals, new Color(0.63f, 0.32f, 0.18f));
 
-        Button leftButton = new Button {Text = "Move Left"};
-        leftButton.Pressed += bc.MoveLeft;
-        AddCustomControl(leftButton);
+        AddButton("Save", bc.Save, new Color(0.29f, 0.56f, 0.89f));
+        AddButton("Load", bc.Load, new Color(0.29f, 0.56f, 0.89f));
+    }
 
-        Button downLeftButton = new Button {Text = "Move Down Left"};
-        downLeftButton.Pressed += bc.MoveDownLeft;
-        AddCustomControl(downLeftButton);
-
-        Button upRightButton = new Button {Text = "Move Up Right"};
-        upRightButton.Pressed += bc.MoveUpRight;
-        AddCustomControl(upRightButton);
-
-        Button rightButton = new Button {Text = "Move Right"};
-        rightButton.Pressed += bc.MoveRight;
-        AddCustomControl(rightButton);
-
-        Button DownRightButton = new Button {Text = "Move Down Right"};
-        DownRightButton.Pressed += bc.MoveDownRight;
-        AddCustomControl(DownRightButton);
-
-        Button placeGrassButton = new Button {Text = "Place Grass"};
-        placeGrassButton.Pressed += bc.PlaceGrass;
-        AddCustomControl(placeGrassButton);
-
-        Button placeTreesButton = new Button {Text = "Place Trees"};
-        placeTreesButton.Pressed += bc.PlaceTrees;
-        AddCustomControl(placeTreesButton);
-
-        Button placeHillButton = new Button {Text = "Place Hill"};
-        placeHillButton.Pressed += bc.PlaceHill;
-        AddCustomControl(placeHillButton);
-
-        Button placeMountainButton = new Button {Text = "Place Mountain"};
-        placeMountainButton.Pressed += bc.PlaceMountain;
-        AddCustomControl(placeMountainButton);
-
-        Button placeWaterButton = new Button {Text = "Place Water"};
-        placeWaterButton.Pressed += bc.PlaceWater;
-        AddCustomControl(placeWaterButton);
-
-        Button placeFarmButton = new Button {Text = "Place Farm"};
-        placeFarmButton.Pressed += bc.PlaceFarm;
-        AddCustomControl(placeFarmButton);
-
-        Button placeHouseButton = new Button {Text = "Place House"};
-        placeHouseButton.Pressed += bc.PlaceHouse;
-        AddCustomControl(placeHouseButton);
-
-        Button placeCastleButton = new Button {Text = "Place Castle"};
-        placeCastleButton.Pressed += bc.PlaceCastle;
-        AddCustomControl(placeCastleButton);
-
-        Button placeDockButton = new Button {Text = "Place Dock"};
-        placeDockButton.Pressed += bc.PlaceDock;
-        AddCustomControl(placeDockButton);
-
-        Button placeMineButton = new Button {Text = "Place Mine"};
-        placeMineButton.Pressed += bc.PlaceMine;
-        AddCustomControl(placeMineButton);
-
-        Button placeAnimalsButton = new Button {Text = "Place Animals"};
-        placeAnimalsButton.Pressed += bc.PlaceAnimals;
-        AddCustomControl(placeAnimalsButton);
-
-        Button placeBlacksmithButton = new Button {Text = "Place Blacksmith"};
-        placeBlacksmithButton.Pressed += bc.PlaceBlacksmith;
-        AddCustomControl(placeBlacksmithButton);
-
-        Button placeTowerButton = new Button {Text = "Place Tower"};
-        placeTowerButton.Pressed += bc.PlaceTower;
-        AddCustomControl(placeTowerButton);
-
-        Button placeSandButton = new Button {Text = "Place Sand"};
-        placeSandButton.Pressed += bc.PlaceSand;
-        AddCustomControl(placeSandButton);
-
-        Button saveButton = new Button {Text = "Save"};
-        saveButton.Pressed += bc.Save;
-        AddCustomControl(saveButton);
-
-        Button loadButton = new Button {Text = "Load"};
-        loadButton.Pressed += bc.Load;
-        AddCustomControl(loadButton);
+    private void AddButton(string label, Action callback, Color color) {
+        Button b = new Button {Text = label};
+        b.AddThemeStyleboxOverride("normal", new StyleBoxFlat {BgColor = color});
+        b.Pressed += callback;
+        AddCustomControl(b);
     }
 }

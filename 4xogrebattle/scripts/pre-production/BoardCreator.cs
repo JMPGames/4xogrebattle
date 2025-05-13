@@ -213,7 +213,6 @@ public partial class BoardCreator : Node {
         tile.tileType = tileType;
         tile.Load(axialCoordinate);
         tiles[axialCoordinate] = tile;
-        GD.Print(tiles.Count);
         return tile;
     }
 
