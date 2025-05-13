@@ -1,0 +1,13 @@
+[gd_scene load_steps=4 format=3 uid="uid://cum57juq7bmro"]
+
+[ext_resource type="Script" path="res://Script/Components/Tile.cs" id="1_5i1ff"]
+[ext_resource type="PackedScene" uid="uid://clpt8inwlr062" path="res://assets/models/tiles/grass.gltf.glb" id="2_103w7"]
+[ext_resource type="PackedScene" uid="uid://c7femstixib6k" path="res://assets/models/map_pieces/mill.gltf.glb" id="3_xvdbl"]
+
+[node name="MillTile" type="Node3D"]
+script = ExtResource("1_5i1ff")
+
+[node name="grass_gltf" parent="." instance=ExtResource("2_103w7")]
+
+[node name="mill_gltf" parent="grass_gltf" instance=ExtResource("3_xvdbl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)

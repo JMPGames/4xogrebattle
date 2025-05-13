@@ -1,0 +1,23 @@
+{
+	"tiles": [
+		{
+			"axialX": 0,
+			"axialY": 0,
+			"rotationY": 0,
+			"tileType": "FARM"
+		},
+		{
+			"axialX": -2,
+			"axialY": 0,
+			"rotationY": 0,
+			"tileType": "FOREST"
+		},
+		{
+			"axialX": 2,
+			"axialY": 0,
+			"rotationY": 0,
+			"tileType": "SAND"
+		}
+	],
+	"version": "1.0.0"
+}

@@ -1,10 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://ccdcc736kn72p"]
+[gd_scene load_steps=4 format=3 uid="uid://bgl2ng1db0523"]
 
-[ext_resource type="PackedScene" uid="uid://d3heddkim1gl1" path="res://assets/models/building-farm.glb" id="1_hsnac"]
-[ext_resource type="Script" path="res://scripts/components/Tile.cs" id="1_rf2bm"]
+[ext_resource type="Script" path="res://Script/Components/Tile.cs" id="1_rrhif"]
+[ext_resource type="PackedScene" uid="uid://clpt8inwlr062" path="res://assets/models/tiles/grass.gltf.glb" id="2_e4hsh"]
+[ext_resource type="PackedScene" uid="uid://bin6hkx8q6y0h" path="res://assets/models/map_pieces/farm_plot.gltf.glb" id="3_hftaj"]
 
 [node name="FarmTile" type="Node3D"]
-transform = Transform3D(0.866025, 0, -0.5, 0, 1, 0, 0.5, 0, 0.866025, 0, 0, 0)
-script = ExtResource("1_rf2bm")
+script = ExtResource("1_rrhif")
 
-[node name="building-farm2" parent="." instance=ExtResource("1_hsnac")]
+[node name="grass_gltf" parent="." instance=ExtResource("2_e4hsh")]
+
+[node name="farm_plot_gltf" parent="grass_gltf" instance=ExtResource("3_hftaj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)

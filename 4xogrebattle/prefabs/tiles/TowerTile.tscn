@@ -1,10 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://di0oof63wjudc"]
+[gd_scene load_steps=4 format=3 uid="uid://b8xl6k560qd02"]
 
-[ext_resource type="PackedScene" uid="uid://b2q7aitbggwqm" path="res://assets/models/building-tower.glb" id="1_b8hp4"]
-[ext_resource type="Script" path="res://scripts/components/Tile.cs" id="1_v6by1"]
+[ext_resource type="Script" path="res://Script/Components/Tile.cs" id="1_8eolt"]
+[ext_resource type="PackedScene" uid="uid://clpt8inwlr062" path="res://assets/models/tiles/grass.gltf.glb" id="2_per6k"]
+[ext_resource type="PackedScene" uid="uid://csrb0rfukrl0u" path="res://assets/models/map_pieces/watchtower.gltf.glb" id="3_vwg5c"]
 
 [node name="TowerTile" type="Node3D"]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, 0)
-script = ExtResource("1_v6by1")
+script = ExtResource("1_8eolt")
 
-[node name="building-tower2" parent="." instance=ExtResource("1_b8hp4")]
+[node name="grass_gltf" parent="." instance=ExtResource("2_per6k")]
+
+[node name="watchtower_gltf" parent="grass_gltf" instance=ExtResource("3_vwg5c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)

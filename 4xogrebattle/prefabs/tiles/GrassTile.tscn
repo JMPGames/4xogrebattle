@@ -1,10 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://b5uolami4ed88"]
+[gd_scene load_steps=3 format=3 uid="uid://4eo4wg2vi0l3"]
 
-[ext_resource type="Script" path="res://scripts/components/Tile.cs" id="1_15eus"]
-[ext_resource type="PackedScene" uid="uid://dbwiy5bybeqod" path="res://assets/models/grass.glb" id="1_wmn6c"]
+[ext_resource type="Script" path="res://Script/Components/Tile.cs" id="1_knk0c"]
+[ext_resource type="PackedScene" uid="uid://clpt8inwlr062" path="res://assets/models/tiles/grass.gltf.glb" id="2_noa7t"]
 
 [node name="GrassTile" type="Node3D"]
-transform = Transform3D(0.866025, 0, -0.5, 0, 1, 0, 0.5, 0, 0.866025, 0, 0, 0)
-script = ExtResource("1_15eus")
+script = ExtResource("1_knk0c")
 
-[node name="grass2" parent="." instance=ExtResource("1_wmn6c")]
+[node name="grass_gltf" parent="." instance=ExtResource("2_noa7t")]

@@ -1,10 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://byy7c7mf1ipei"]
+[gd_scene load_steps=3 format=3 uid="uid://duvwkxnotk7g8"]
 
-[ext_resource type="PackedScene" uid="uid://d2ntws2mhyag2" path="res://assets/models/sand.glb" id="1_1pcf1"]
-[ext_resource type="Script" path="res://scripts/components/Tile.cs" id="1_vxp7l"]
+[ext_resource type="Script" path="res://Script/Components/Tile.cs" id="1_vkc1c"]
+[ext_resource type="PackedScene" uid="uid://dq8gfpmijbsln" path="res://assets/models/tiles/sand.gltf.glb" id="2_45wxg"]
 
 [node name="SandTile" type="Node3D"]
-script = ExtResource("1_vxp7l")
+script = ExtResource("1_vkc1c")
 
-[node name="sand2" parent="." instance=ExtResource("1_1pcf1")]
-transform = Transform3D(0.866025, 0, -0.5, 0, 1, 0, 0.5, 0, 0.866025, 0, 0, 0)
+[node name="sand_gltf" parent="." instance=ExtResource("2_45wxg")]

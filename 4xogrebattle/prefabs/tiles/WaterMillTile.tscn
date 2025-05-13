@@ -1,0 +1,13 @@
+[gd_scene load_steps=4 format=3 uid="uid://my65tochxebp"]
+
+[ext_resource type="Script" path="res://Script/Components/Tile.cs" id="1_11h0b"]
+[ext_resource type="PackedScene" uid="uid://clpt8inwlr062" path="res://assets/models/tiles/grass.gltf.glb" id="2_h8tcv"]
+[ext_resource type="PackedScene" uid="uid://bu6d6nhlv7g0k" path="res://assets/models/map_pieces/watermill.gltf.glb" id="3_7vcrp"]
+
+[node name="WaterMillTile" type="Node3D"]
+script = ExtResource("1_11h0b")
+
+[node name="grass_gltf" parent="." instance=ExtResource("2_h8tcv")]
+
+[node name="watermill_gltf" parent="grass_gltf" instance=ExtResource("3_7vcrp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)

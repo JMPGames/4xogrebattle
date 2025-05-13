@@ -1,17 +1,49 @@
-[gd_scene load_steps=3 format=3 uid="uid://lun6r3keu0kf"]
+[gd_scene load_steps=8 format=3 uid="uid://lun6r3keu0kf"]
 
-[ext_resource type="PackedScene" uid="uid://dbwiy5bybeqod" path="res://assets/models/grass.glb" id="1_q8odr"]
-[ext_resource type="PackedScene" uid="uid://bosli2gmh4vfy" path="res://assets/models/grass-forest.glb" id="2_80770"]
+[ext_resource type="Script" path="res://Script/Controllers/GameController.cs" id="1_rcven"]
+[ext_resource type="Script" path="res://Script/PreProduction/BoardCreator.cs" id="2_7b3we"]
+[ext_resource type="Script" path="res://Script/Controllers/InputController.cs" id="3_2mua7"]
+[ext_resource type="Script" path="res://Script/Controllers/CameraController.cs" id="3_gdk55"]
+[ext_resource type="Script" path="res://Script/Systems/StateMachine/StateMachine.cs" id="4_fw2ww"]
+[ext_resource type="Script" path="res://Script/States/OverworldExploreState.cs" id="6_fxs5m"]
+[ext_resource type="Script" path="res://Script/States/LoadLevelState.cs" id="6_rbvlk"]
 
 [node name="main" type="Node3D"]
 
-[node name="map" type="Node" parent="."]
+[node name="GameController" type="Node" parent="." node_paths=PackedStringArray("_board", "_inputController", "_cameraController", "_stateMachine", "_initialState")]
+script = ExtResource("1_rcven")
+_board = NodePath("BoardController")
+_inputController = NodePath("InputController")
+_cameraController = NodePath("CameraController")
+_stateMachine = NodePath("StateMachine")
+_initialState = NodePath("StateMachine/LoadLevelState")
 
-[node name="grass2" parent="map" instance=ExtResource("1_q8odr")]
-
-[node name="grass-forest2" parent="map" instance=ExtResource("2_80770")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 0)
-
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="GameController"]
 transform = Transform3D(1, 0, 0, 0, 0.59093, 0.806723, 0, -0.806723, 0.59093, 0, 4.49045, 3.73703)
 light_energy = 0.5
+
+[node name="BoardController" type="Node3D" parent="GameController"]
+script = ExtResource("2_7b3we")
+
+[node name="CameraController" type="Node3D" parent="GameController" node_paths=PackedStringArray("_camera")]
+script = ExtResource("3_gdk55")
+_camera = NodePath("Camera3D")
+
+[node name="Camera3D" type="Camera3D" parent="GameController/CameraController"]
+transform = Transform3D(1, 0, 0, 0, 0.642788, 0.766044, 0, -0.766044, 0.642788, 0, 10, 0)
+projection = 1
+size = 5.0
+
+[node name="InputController" type="Node" parent="GameController"]
+script = ExtResource("3_2mua7")
+
+[node name="StateMachine" type="Node" parent="GameController"]
+script = ExtResource("4_fw2ww")
+
+[node name="LoadLevelState" type="Node" parent="GameController/StateMachine" node_paths=PackedStringArray("_stateAfterLoad")]
+script = ExtResource("6_rbvlk")
+_stateAfterLoad = NodePath("../OverworldSelectState")
+_mapFileName = "prototypemap"
+
+[node name="OverworldSelectState" type="Node" parent="GameController/StateMachine"]
+script = ExtResource("6_fxs5m")

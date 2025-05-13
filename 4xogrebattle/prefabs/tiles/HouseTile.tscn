@@ -1,10 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://caf8iaqogxqgk"]
+[gd_scene load_steps=4 format=3 uid="uid://k25aw86hate2"]
 
-[ext_resource type="PackedScene" uid="uid://cogm1ub77t0y0" path="res://assets/models/building-house.glb" id="1_6cpiv"]
-[ext_resource type="Script" path="res://scripts/components/Tile.cs" id="1_870f4"]
+[ext_resource type="Script" path="res://Script/Components/Tile.cs" id="1_hhcvw"]
+[ext_resource type="PackedScene" uid="uid://clpt8inwlr062" path="res://assets/models/tiles/grass.gltf.glb" id="2_0jl3n"]
+[ext_resource type="PackedScene" uid="uid://cqhfqke2nfmpo" path="res://assets/models/map_pieces/house.gltf.glb" id="3_w4ml1"]
 
 [node name="HouseTile" type="Node3D"]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, 0)
-script = ExtResource("1_870f4")
+script = ExtResource("1_hhcvw")
 
-[node name="building-house2" parent="." instance=ExtResource("1_6cpiv")]
+[node name="grass_gltf" parent="." instance=ExtResource("2_0jl3n")]
+
+[node name="house_gltf" parent="grass_gltf" instance=ExtResource("3_w4ml1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)

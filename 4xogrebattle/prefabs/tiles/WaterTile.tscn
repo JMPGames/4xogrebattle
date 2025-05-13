@@ -1,10 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://bve6i8qo3qiku"]
+[gd_scene load_steps=3 format=3 uid="uid://bw3fmiuvegieh"]
 
-[ext_resource type="PackedScene" uid="uid://ckf6pu3tlmp3d" path="res://assets/models/water.glb" id="1_eqidn"]
-[ext_resource type="Script" path="res://scripts/components/Tile.cs" id="1_j7oyr"]
+[ext_resource type="Script" path="res://Script/Components/Tile.cs" id="1_urw3u"]
+[ext_resource type="PackedScene" uid="uid://bgj7ovbjiwg04" path="res://assets/models/tiles/water.gltf.glb" id="2_x846j"]
 
 [node name="WaterTile" type="Node3D"]
-transform = Transform3D(0.866025, 0, -0.5, 0, 1, 0, 0.5, 0, 0.866025, 0, 0, 0)
-script = ExtResource("1_j7oyr")
+script = ExtResource("1_urw3u")
 
-[node name="water2" parent="." instance=ExtResource("1_eqidn")]
+[node name="water_gltf" parent="." instance=ExtResource("2_x846j")]
