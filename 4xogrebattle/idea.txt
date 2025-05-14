@@ -27,8 +27,8 @@ Idea:
 	Player can buy and equip units with gear inbetween levels.
     Gear should be kept simple to reduce balancing scope. Weapon and Armor only?
     Gear progression should be like Valkyrie Profile, where inbetween each level you get better options
-	
-Entity script
+
+Some signifier that a building is marked UNSECURE
 Build out entities and definitions for each building type
 Build out player and enemy entites and definitions
 Link Entities with Tile script

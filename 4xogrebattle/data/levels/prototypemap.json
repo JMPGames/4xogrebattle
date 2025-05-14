@@ -1,4504 +1,5254 @@
 {
 	"tiles": [
 		{
-			"axialX": 0,
-			"axialY": 0,
+			"positionX": 0,
+			"positionY": 0,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 0,
-			"axialY": 2,
+			"positionX": 0,
+			"positionY": 2,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 0,
-			"axialY": 4,
+			"positionX": 0,
+			"positionY": 4,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 0,
-			"axialY": 6,
+			"positionX": 0,
+			"positionY": 6,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 0,
-			"axialY": 8,
+			"positionX": 0,
+			"positionY": 8,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 0,
-			"axialY": 10,
+			"positionX": 0,
+			"positionY": 10,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 0,
-			"axialY": 12,
+			"positionX": 0,
+			"positionY": 12,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 0,
-			"axialY": 14,
+			"positionX": 0,
+			"positionY": 14,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 0,
-			"axialY": 16,
+			"positionX": 0,
+			"positionY": 16,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 0,
-			"axialY": 18,
+			"positionX": 0,
+			"positionY": 18,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 0,
-			"axialY": 20,
+			"positionX": 0,
+			"positionY": 20,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 0,
-			"axialY": 22,
+			"positionX": 0,
+			"positionY": 22,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 0,
-			"axialY": 24,
+			"positionX": 0,
+			"positionY": 24,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 0,
-			"axialY": 26,
+			"positionX": 0,
+			"positionY": 26,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 0,
-			"axialY": 28,
+			"positionX": 0,
+			"positionY": 28,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 0,
-			"axialY": 30,
+			"positionX": 0,
+			"positionY": 30,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 0,
-			"axialY": 32,
+			"positionX": 0,
+			"positionY": 32,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 0,
-			"axialY": 34,
+			"positionX": 0,
+			"positionY": 34,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 0,
-			"axialY": 36,
+			"positionX": 0,
+			"positionY": 36,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 0,
-			"axialY": 38,
+			"positionX": 0,
+			"positionY": 38,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 0,
-			"axialY": 40,
+			"positionX": 0,
+			"positionY": 40,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 0,
-			"axialY": 42,
+			"positionX": 0,
+			"positionY": 42,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 0,
-			"axialY": 44,
+			"positionX": 0,
+			"positionY": 44,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 0,
-			"axialY": 46,
+			"positionX": 0,
+			"positionY": 46,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 0,
-			"axialY": 48,
+			"positionX": 0,
+			"positionY": 48,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 2,
-			"axialY": 0,
+			"positionX": 2,
+			"positionY": 0,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 2,
-			"axialY": 2,
+			"positionX": 2,
+			"positionY": 2,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 2,
-			"axialY": 4,
+			"positionX": 2,
+			"positionY": 4,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 2,
-			"axialY": 6,
+			"positionX": 2,
+			"positionY": 6,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 2,
-			"axialY": 8,
+			"positionX": 2,
+			"positionY": 8,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 2,
-			"axialY": 10,
+			"positionX": 2,
+			"positionY": 10,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 2,
-			"axialY": 12,
+			"positionX": 2,
+			"positionY": 12,
 			"rotationY": 0,
-			"tileType": "MOUNTAIN"
+			"tileType": "MOUNTAIN",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 2,
-			"axialY": 14,
+			"positionX": 2,
+			"positionY": 14,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 2,
-			"axialY": 16,
+			"positionX": 2,
+			"positionY": 16,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 2,
-			"axialY": 18,
+			"positionX": 2,
+			"positionY": 18,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 2,
-			"axialY": 20,
+			"positionX": 2,
+			"positionY": 20,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 2,
-			"axialY": 22,
+			"positionX": 2,
+			"positionY": 22,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 2,
-			"axialY": 24,
+			"positionX": 2,
+			"positionY": 24,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 2,
-			"axialY": 26,
+			"positionX": 2,
+			"positionY": 26,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 2,
-			"axialY": 28,
+			"positionX": 2,
+			"positionY": 28,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 2,
-			"axialY": 30,
+			"positionX": 2,
+			"positionY": 30,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 2,
-			"axialY": 32,
+			"positionX": 2,
+			"positionY": 32,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 2,
-			"axialY": 34,
+			"positionX": 2,
+			"positionY": 34,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 2,
-			"axialY": 36,
+			"positionX": 2,
+			"positionY": 36,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 2,
-			"axialY": 38,
+			"positionX": 2,
+			"positionY": 38,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 2,
-			"axialY": 40,
+			"positionX": 2,
+			"positionY": 40,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 2,
-			"axialY": 42,
+			"positionX": 2,
+			"positionY": 42,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 2,
-			"axialY": 44,
+			"positionX": 2,
+			"positionY": 44,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 2,
-			"axialY": 46,
+			"positionX": 2,
+			"positionY": 46,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 2,
-			"axialY": 48,
+			"positionX": 2,
+			"positionY": 48,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 4,
-			"axialY": 0,
+			"positionX": 4,
+			"positionY": 0,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 4,
-			"axialY": 2,
+			"positionX": 4,
+			"positionY": 2,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 4,
-			"axialY": 4,
+			"positionX": 4,
+			"positionY": 4,
 			"rotationY": 0,
-			"tileType": "CASTLE"
+			"tileType": "CASTLE",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 4,
-			"axialY": 6,
+			"positionX": 4,
+			"positionY": 6,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 4,
-			"axialY": 8,
+			"positionX": 4,
+			"positionY": 8,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 4,
-			"axialY": 10,
+			"positionX": 4,
+			"positionY": 10,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 4,
-			"axialY": 12,
+			"positionX": 4,
+			"positionY": 12,
 			"rotationY": 0,
-			"tileType": "MOUNTAIN"
+			"tileType": "MOUNTAIN",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 4,
-			"axialY": 14,
+			"positionX": 4,
+			"positionY": 14,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 4,
-			"axialY": 16,
+			"positionX": 4,
+			"positionY": 16,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 4,
-			"axialY": 18,
+			"positionX": 4,
+			"positionY": 18,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 4,
-			"axialY": 20,
+			"positionX": 4,
+			"positionY": 20,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 4,
-			"axialY": 22,
+			"positionX": 4,
+			"positionY": 22,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 4,
-			"axialY": 24,
+			"positionX": 4,
+			"positionY": 24,
 			"rotationY": 0,
-			"tileType": "MOUNTAIN"
+			"tileType": "MOUNTAIN",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 4,
-			"axialY": 26,
+			"positionX": 4,
+			"positionY": 26,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 4,
-			"axialY": 28,
+			"positionX": 4,
+			"positionY": 28,
 			"rotationY": 0,
-			"tileType": "MOUNTAIN"
+			"tileType": "MOUNTAIN",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 4,
-			"axialY": 30,
+			"positionX": 4,
+			"positionY": 30,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 4,
-			"axialY": 32,
+			"positionX": 4,
+			"positionY": 32,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 4,
-			"axialY": 34,
+			"positionX": 4,
+			"positionY": 34,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 4,
-			"axialY": 36,
+			"positionX": 4,
+			"positionY": 36,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 4,
-			"axialY": 38,
+			"positionX": 4,
+			"positionY": 38,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 4,
-			"axialY": 40,
+			"positionX": 4,
+			"positionY": 40,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 4,
-			"axialY": 42,
+			"positionX": 4,
+			"positionY": 42,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 4,
-			"axialY": 44,
+			"positionX": 4,
+			"positionY": 44,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 4,
-			"axialY": 46,
+			"positionX": 4,
+			"positionY": 46,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 4,
-			"axialY": 48,
+			"positionX": 4,
+			"positionY": 48,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 6,
-			"axialY": 0,
+			"positionX": 6,
+			"positionY": 0,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 6,
-			"axialY": 2,
+			"positionX": 6,
+			"positionY": 2,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 6,
-			"axialY": 4,
+			"positionX": 6,
+			"positionY": 4,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 6,
-			"axialY": 6,
+			"positionX": 6,
+			"positionY": 6,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 6,
-			"axialY": 8,
+			"positionX": 6,
+			"positionY": 8,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 6,
-			"axialY": 10,
+			"positionX": 6,
+			"positionY": 10,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 6,
-			"axialY": 12,
+			"positionX": 6,
+			"positionY": 12,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 6,
-			"axialY": 14,
+			"positionX": 6,
+			"positionY": 14,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 6,
-			"axialY": 16,
+			"positionX": 6,
+			"positionY": 16,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 6,
-			"axialY": 18,
+			"positionX": 6,
+			"positionY": 18,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 6,
-			"axialY": 20,
+			"positionX": 6,
+			"positionY": 20,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 6,
-			"axialY": 22,
+			"positionX": 6,
+			"positionY": 22,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 6,
-			"axialY": 24,
+			"positionX": 6,
+			"positionY": 24,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 6,
-			"axialY": 26,
+			"positionX": 6,
+			"positionY": 26,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 6,
-			"axialY": 28,
+			"positionX": 6,
+			"positionY": 28,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 6,
-			"axialY": 30,
+			"positionX": 6,
+			"positionY": 30,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 6,
-			"axialY": 32,
+			"positionX": 6,
+			"positionY": 32,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 6,
-			"axialY": 34,
+			"positionX": 6,
+			"positionY": 34,
 			"rotationY": 0,
-			"tileType": "MOUNTAIN"
+			"tileType": "MOUNTAIN",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 6,
-			"axialY": 36,
+			"positionX": 6,
+			"positionY": 36,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 6,
-			"axialY": 38,
+			"positionX": 6,
+			"positionY": 38,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 6,
-			"axialY": 40,
+			"positionX": 6,
+			"positionY": 40,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 6,
-			"axialY": 42,
+			"positionX": 6,
+			"positionY": 42,
 			"rotationY": -3.14159250259399,
-			"tileType": "MARKET"
+			"tileType": "MARKET",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 6,
-			"axialY": 44,
+			"positionX": 6,
+			"positionY": 44,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 6,
-			"axialY": 46,
+			"positionX": 6,
+			"positionY": 46,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 6,
-			"axialY": 48,
+			"positionX": 6,
+			"positionY": 48,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 8,
-			"axialY": 0,
+			"positionX": 8,
+			"positionY": 0,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 8,
-			"axialY": 2,
+			"positionX": 8,
+			"positionY": 2,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 8,
-			"axialY": 4,
+			"positionX": 8,
+			"positionY": 4,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 8,
-			"axialY": 6,
+			"positionX": 8,
+			"positionY": 6,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 8,
-			"axialY": 8,
+			"positionX": 8,
+			"positionY": 8,
 			"rotationY": -3.14159250259399,
-			"tileType": "ARCHERY_RANGE"
+			"tileType": "ARCHERY_RANGE",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 8,
-			"axialY": 10,
+			"positionX": 8,
+			"positionY": 10,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 8,
-			"axialY": 12,
+			"positionX": 8,
+			"positionY": 12,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 8,
-			"axialY": 14,
+			"positionX": 8,
+			"positionY": 14,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 8,
-			"axialY": 16,
+			"positionX": 8,
+			"positionY": 16,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 8,
-			"axialY": 18,
+			"positionX": 8,
+			"positionY": 18,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 8,
-			"axialY": 20,
+			"positionX": 8,
+			"positionY": 20,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 8,
-			"axialY": 22,
+			"positionX": 8,
+			"positionY": 22,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 8,
-			"axialY": 24,
+			"positionX": 8,
+			"positionY": 24,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 8,
-			"axialY": 26,
+			"positionX": 8,
+			"positionY": 26,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 8,
-			"axialY": 28,
+			"positionX": 8,
+			"positionY": 28,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 8,
-			"axialY": 30,
+			"positionX": 8,
+			"positionY": 30,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 8,
-			"axialY": 32,
+			"positionX": 8,
+			"positionY": 32,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 8,
-			"axialY": 34,
+			"positionX": 8,
+			"positionY": 34,
 			"rotationY": 0,
-			"tileType": "MOUNTAIN"
+			"tileType": "MOUNTAIN",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 8,
-			"axialY": 36,
+			"positionX": 8,
+			"positionY": 36,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 8,
-			"axialY": 38,
+			"positionX": 8,
+			"positionY": 38,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 8,
-			"axialY": 40,
+			"positionX": 8,
+			"positionY": 40,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 8,
-			"axialY": 42,
+			"positionX": 8,
+			"positionY": 42,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 8,
-			"axialY": 44,
+			"positionX": 8,
+			"positionY": 44,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 8,
-			"axialY": 46,
+			"positionX": 8,
+			"positionY": 46,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 8,
-			"axialY": 48,
+			"positionX": 8,
+			"positionY": 48,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 10,
-			"axialY": 0,
+			"positionX": 10,
+			"positionY": 0,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 10,
-			"axialY": 2,
+			"positionX": 10,
+			"positionY": 2,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 10,
-			"axialY": 4,
+			"positionX": 10,
+			"positionY": 4,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 10,
-			"axialY": 6,
+			"positionX": 10,
+			"positionY": 6,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 10,
-			"axialY": 8,
+			"positionX": 10,
+			"positionY": 8,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 10,
-			"axialY": 10,
+			"positionX": 10,
+			"positionY": 10,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 10,
-			"axialY": 12,
+			"positionX": 10,
+			"positionY": 12,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 10,
-			"axialY": 14,
+			"positionX": 10,
+			"positionY": 14,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 10,
-			"axialY": 16,
+			"positionX": 10,
+			"positionY": 16,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 10,
-			"axialY": 18,
+			"positionX": 10,
+			"positionY": 18,
 			"rotationY": 0,
-			"tileType": "MOUNTAIN"
+			"tileType": "MOUNTAIN",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 10,
-			"axialY": 20,
+			"positionX": 10,
+			"positionY": 20,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 10,
-			"axialY": 22,
+			"positionX": 10,
+			"positionY": 22,
 			"rotationY": 0,
-			"tileType": "MOUNTAIN"
+			"tileType": "MOUNTAIN",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 10,
-			"axialY": 24,
+			"positionX": 10,
+			"positionY": 24,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 10,
-			"axialY": 26,
+			"positionX": 10,
+			"positionY": 26,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 10,
-			"axialY": 28,
+			"positionX": 10,
+			"positionY": 28,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 10,
-			"axialY": 30,
+			"positionX": 10,
+			"positionY": 30,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 10,
-			"axialY": 32,
+			"positionX": 10,
+			"positionY": 32,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 10,
-			"axialY": 34,
+			"positionX": 10,
+			"positionY": 34,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 10,
-			"axialY": 36,
+			"positionX": 10,
+			"positionY": 36,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 10,
-			"axialY": 38,
+			"positionX": 10,
+			"positionY": 38,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 10,
-			"axialY": 40,
+			"positionX": 10,
+			"positionY": 40,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 10,
-			"axialY": 42,
+			"positionX": 10,
+			"positionY": 42,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 10,
-			"axialY": 44,
+			"positionX": 10,
+			"positionY": 44,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 10,
-			"axialY": 46,
+			"positionX": 10,
+			"positionY": 46,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 10,
-			"axialY": 48,
+			"positionX": 10,
+			"positionY": 48,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 12,
-			"axialY": 0,
+			"positionX": 12,
+			"positionY": 0,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 12,
-			"axialY": 2,
+			"positionX": 12,
+			"positionY": 2,
 			"rotationY": 0,
-			"tileType": "MOUNTAIN"
+			"tileType": "MOUNTAIN",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 12,
-			"axialY": 4,
+			"positionX": 12,
+			"positionY": 4,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 12,
-			"axialY": 6,
+			"positionX": 12,
+			"positionY": 6,
 			"rotationY": -1.570796251297,
-			"tileType": "BARRACK"
+			"tileType": "BARRACK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 12,
-			"axialY": 8,
+			"positionX": 12,
+			"positionY": 8,
 			"rotationY": 0,
-			"tileType": "MOUNTAIN"
+			"tileType": "MOUNTAIN",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 12,
-			"axialY": 10,
+			"positionX": 12,
+			"positionY": 10,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 12,
-			"axialY": 12,
+			"positionX": 12,
+			"positionY": 12,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 12,
-			"axialY": 14,
+			"positionX": 12,
+			"positionY": 14,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 12,
-			"axialY": 16,
+			"positionX": 12,
+			"positionY": 16,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 12,
-			"axialY": 18,
+			"positionX": 12,
+			"positionY": 18,
 			"rotationY": -3.14159250259399,
-			"tileType": "TOWER"
+			"tileType": "TOWER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 12,
-			"axialY": 20,
+			"positionX": 12,
+			"positionY": 20,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 12,
-			"axialY": 22,
+			"positionX": 12,
+			"positionY": 22,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 12,
-			"axialY": 24,
+			"positionX": 12,
+			"positionY": 24,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 12,
-			"axialY": 26,
+			"positionX": 12,
+			"positionY": 26,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 12,
-			"axialY": 28,
+			"positionX": 12,
+			"positionY": 28,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 12,
-			"axialY": 30,
+			"positionX": 12,
+			"positionY": 30,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 12,
-			"axialY": 32,
+			"positionX": 12,
+			"positionY": 32,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 12,
-			"axialY": 34,
+			"positionX": 12,
+			"positionY": 34,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 12,
-			"axialY": 36,
+			"positionX": 12,
+			"positionY": 36,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 12,
-			"axialY": 38,
+			"positionX": 12,
+			"positionY": 38,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 12,
-			"axialY": 40,
+			"positionX": 12,
+			"positionY": 40,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 12,
-			"axialY": 42,
+			"positionX": 12,
+			"positionY": 42,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 12,
-			"axialY": 44,
+			"positionX": 12,
+			"positionY": 44,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 12,
-			"axialY": 46,
+			"positionX": 12,
+			"positionY": 46,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 12,
-			"axialY": 48,
+			"positionX": 12,
+			"positionY": 48,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 14,
-			"axialY": 0,
+			"positionX": 14,
+			"positionY": 0,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 14,
-			"axialY": 2,
+			"positionX": 14,
+			"positionY": 2,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 14,
-			"axialY": 4,
+			"positionX": 14,
+			"positionY": 4,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 14,
-			"axialY": 6,
+			"positionX": 14,
+			"positionY": 6,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 14,
-			"axialY": 8,
+			"positionX": 14,
+			"positionY": 8,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 14,
-			"axialY": 10,
+			"positionX": 14,
+			"positionY": 10,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 14,
-			"axialY": 12,
+			"positionX": 14,
+			"positionY": 12,
 			"rotationY": 0,
-			"tileType": "MOUNTAIN"
+			"tileType": "MOUNTAIN",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 14,
-			"axialY": 14,
+			"positionX": 14,
+			"positionY": 14,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 14,
-			"axialY": 16,
+			"positionX": 14,
+			"positionY": 16,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 14,
-			"axialY": 18,
+			"positionX": 14,
+			"positionY": 18,
 			"rotationY": 0,
-			"tileType": "MOUNTAIN"
+			"tileType": "MOUNTAIN",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 14,
-			"axialY": 20,
+			"positionX": 14,
+			"positionY": 20,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 14,
-			"axialY": 22,
+			"positionX": 14,
+			"positionY": 22,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 14,
-			"axialY": 24,
+			"positionX": 14,
+			"positionY": 24,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 14,
-			"axialY": 26,
+			"positionX": 14,
+			"positionY": 26,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 14,
-			"axialY": 28,
+			"positionX": 14,
+			"positionY": 28,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 14,
-			"axialY": 30,
+			"positionX": 14,
+			"positionY": 30,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 14,
-			"axialY": 32,
+			"positionX": 14,
+			"positionY": 32,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 14,
-			"axialY": 34,
+			"positionX": 14,
+			"positionY": 34,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 14,
-			"axialY": 36,
+			"positionX": 14,
+			"positionY": 36,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 14,
-			"axialY": 38,
+			"positionX": 14,
+			"positionY": 38,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 14,
-			"axialY": 40,
+			"positionX": 14,
+			"positionY": 40,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 14,
-			"axialY": 42,
+			"positionX": 14,
+			"positionY": 42,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 14,
-			"axialY": 44,
+			"positionX": 14,
+			"positionY": 44,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 14,
-			"axialY": 46,
+			"positionX": 14,
+			"positionY": 46,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 14,
-			"axialY": 48,
+			"positionX": 14,
+			"positionY": 48,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 16,
-			"axialY": 0,
+			"positionX": 16,
+			"positionY": 0,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 16,
-			"axialY": 2,
+			"positionX": 16,
+			"positionY": 2,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 16,
-			"axialY": 4,
+			"positionX": 16,
+			"positionY": 4,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 16,
-			"axialY": 6,
+			"positionX": 16,
+			"positionY": 6,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 16,
-			"axialY": 8,
+			"positionX": 16,
+			"positionY": 8,
 			"rotationY": -3.14159250259399,
-			"tileType": "WELL"
+			"tileType": "WELL",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 16,
-			"axialY": 10,
+			"positionX": 16,
+			"positionY": 10,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 16,
-			"axialY": 12,
+			"positionX": 16,
+			"positionY": 12,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 16,
-			"axialY": 14,
+			"positionX": 16,
+			"positionY": 14,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 16,
-			"axialY": 16,
+			"positionX": 16,
+			"positionY": 16,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 16,
-			"axialY": 18,
+			"positionX": 16,
+			"positionY": 18,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 16,
-			"axialY": 20,
+			"positionX": 16,
+			"positionY": 20,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 16,
-			"axialY": 22,
+			"positionX": 16,
+			"positionY": 22,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 16,
-			"axialY": 24,
+			"positionX": 16,
+			"positionY": 24,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 16,
-			"axialY": 26,
+			"positionX": 16,
+			"positionY": 26,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 16,
-			"axialY": 28,
+			"positionX": 16,
+			"positionY": 28,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 16,
-			"axialY": 30,
+			"positionX": 16,
+			"positionY": 30,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 16,
-			"axialY": 32,
+			"positionX": 16,
+			"positionY": 32,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 16,
-			"axialY": 34,
+			"positionX": 16,
+			"positionY": 34,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 16,
-			"axialY": 36,
+			"positionX": 16,
+			"positionY": 36,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 16,
-			"axialY": 38,
+			"positionX": 16,
+			"positionY": 38,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 16,
-			"axialY": 40,
+			"positionX": 16,
+			"positionY": 40,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 16,
-			"axialY": 42,
+			"positionX": 16,
+			"positionY": 42,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 16,
-			"axialY": 44,
+			"positionX": 16,
+			"positionY": 44,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 16,
-			"axialY": 46,
+			"positionX": 16,
+			"positionY": 46,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 16,
-			"axialY": 48,
+			"positionX": 16,
+			"positionY": 48,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 18,
-			"axialY": 0,
+			"positionX": 18,
+			"positionY": 0,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 18,
-			"axialY": 2,
+			"positionX": 18,
+			"positionY": 2,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 18,
-			"axialY": 4,
+			"positionX": 18,
+			"positionY": 4,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 18,
-			"axialY": 6,
+			"positionX": 18,
+			"positionY": 6,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 18,
-			"axialY": 8,
+			"positionX": 18,
+			"positionY": 8,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 18,
-			"axialY": 10,
+			"positionX": 18,
+			"positionY": 10,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 18,
-			"axialY": 12,
+			"positionX": 18,
+			"positionY": 12,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 18,
-			"axialY": 14,
+			"positionX": 18,
+			"positionY": 14,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 18,
-			"axialY": 16,
+			"positionX": 18,
+			"positionY": 16,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 18,
-			"axialY": 18,
+			"positionX": 18,
+			"positionY": 18,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 18,
-			"axialY": 20,
+			"positionX": 18,
+			"positionY": 20,
 			"rotationY": 0,
-			"tileType": "MOUNTAIN"
+			"tileType": "MOUNTAIN",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 18,
-			"axialY": 22,
+			"positionX": 18,
+			"positionY": 22,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 18,
-			"axialY": 24,
+			"positionX": 18,
+			"positionY": 24,
 			"rotationY": 0,
-			"tileType": "MOUNTAIN"
+			"tileType": "MOUNTAIN",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 18,
-			"axialY": 26,
+			"positionX": 18,
+			"positionY": 26,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 18,
-			"axialY": 28,
+			"positionX": 18,
+			"positionY": 28,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 18,
-			"axialY": 30,
+			"positionX": 18,
+			"positionY": 30,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 18,
-			"axialY": 32,
+			"positionX": 18,
+			"positionY": 32,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 18,
-			"axialY": 34,
+			"positionX": 18,
+			"positionY": 34,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 18,
-			"axialY": 36,
+			"positionX": 18,
+			"positionY": 36,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 18,
-			"axialY": 38,
+			"positionX": 18,
+			"positionY": 38,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 18,
-			"axialY": 40,
+			"positionX": 18,
+			"positionY": 40,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 18,
-			"axialY": 42,
+			"positionX": 18,
+			"positionY": 42,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 18,
-			"axialY": 44,
+			"positionX": 18,
+			"positionY": 44,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 18,
-			"axialY": 46,
+			"positionX": 18,
+			"positionY": 46,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 18,
-			"axialY": 48,
+			"positionX": 18,
+			"positionY": 48,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 20,
-			"axialY": 0,
+			"positionX": 20,
+			"positionY": 0,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 20,
-			"axialY": 2,
+			"positionX": 20,
+			"positionY": 2,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 20,
-			"axialY": 4,
+			"positionX": 20,
+			"positionY": 4,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 20,
-			"axialY": 6,
+			"positionX": 20,
+			"positionY": 6,
 			"rotationY": 0.000000174845553146952,
-			"tileType": "FARM"
+			"tileType": "FARM",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 20,
-			"axialY": 8,
+			"positionX": 20,
+			"positionY": 8,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 20,
-			"axialY": 10,
+			"positionX": 20,
+			"positionY": 10,
 			"rotationY": -3.14159250259399,
-			"tileType": "MILL"
+			"tileType": "MILL",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 20,
-			"axialY": 12,
+			"positionX": 20,
+			"positionY": 12,
 			"rotationY": 0,
-			"tileType": "MOUNTAIN"
+			"tileType": "MOUNTAIN",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 20,
-			"axialY": 14,
+			"positionX": 20,
+			"positionY": 14,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 20,
-			"axialY": 16,
+			"positionX": 20,
+			"positionY": 16,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 20,
-			"axialY": 18,
+			"positionX": 20,
+			"positionY": 18,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 20,
-			"axialY": 20,
+			"positionX": 20,
+			"positionY": 20,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 20,
-			"axialY": 22,
+			"positionX": 20,
+			"positionY": 22,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 20,
-			"axialY": 24,
+			"positionX": 20,
+			"positionY": 24,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 20,
-			"axialY": 26,
+			"positionX": 20,
+			"positionY": 26,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 20,
-			"axialY": 28,
+			"positionX": 20,
+			"positionY": 28,
 			"rotationY": 0,
-			"tileType": "MOUNTAIN"
+			"tileType": "MOUNTAIN",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 20,
-			"axialY": 30,
+			"positionX": 20,
+			"positionY": 30,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 20,
-			"axialY": 32,
+			"positionX": 20,
+			"positionY": 32,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 20,
-			"axialY": 34,
+			"positionX": 20,
+			"positionY": 34,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 20,
-			"axialY": 36,
+			"positionX": 20,
+			"positionY": 36,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 20,
-			"axialY": 38,
+			"positionX": 20,
+			"positionY": 38,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 20,
-			"axialY": 40,
+			"positionX": 20,
+			"positionY": 40,
 			"rotationY": 0,
-			"tileType": "MOUNTAIN"
+			"tileType": "MOUNTAIN",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 20,
-			"axialY": 42,
+			"positionX": 20,
+			"positionY": 42,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 20,
-			"axialY": 44,
+			"positionX": 20,
+			"positionY": 44,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 20,
-			"axialY": 46,
+			"positionX": 20,
+			"positionY": 46,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 20,
-			"axialY": 48,
+			"positionX": 20,
+			"positionY": 48,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 22,
-			"axialY": 0,
+			"positionX": 22,
+			"positionY": 0,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 22,
-			"axialY": 2,
+			"positionX": 22,
+			"positionY": 2,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 22,
-			"axialY": 4,
+			"positionX": 22,
+			"positionY": 4,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 22,
-			"axialY": 6,
+			"positionX": 22,
+			"positionY": 6,
 			"rotationY": -3.14159250259399,
-			"tileType": "HOUSE"
+			"tileType": "HOUSE",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 22,
-			"axialY": 8,
+			"positionX": 22,
+			"positionY": 8,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 22,
-			"axialY": 10,
+			"positionX": 22,
+			"positionY": 10,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 22,
-			"axialY": 12,
+			"positionX": 22,
+			"positionY": 12,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 22,
-			"axialY": 14,
+			"positionX": 22,
+			"positionY": 14,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 22,
-			"axialY": 16,
+			"positionX": 22,
+			"positionY": 16,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 22,
-			"axialY": 18,
+			"positionX": 22,
+			"positionY": 18,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 22,
-			"axialY": 20,
+			"positionX": 22,
+			"positionY": 20,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 22,
-			"axialY": 22,
+			"positionX": 22,
+			"positionY": 22,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 22,
-			"axialY": 24,
+			"positionX": 22,
+			"positionY": 24,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 22,
-			"axialY": 26,
+			"positionX": 22,
+			"positionY": 26,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 22,
-			"axialY": 28,
+			"positionX": 22,
+			"positionY": 28,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 22,
-			"axialY": 30,
+			"positionX": 22,
+			"positionY": 30,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 22,
-			"axialY": 32,
+			"positionX": 22,
+			"positionY": 32,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 22,
-			"axialY": 34,
+			"positionX": 22,
+			"positionY": 34,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 22,
-			"axialY": 36,
+			"positionX": 22,
+			"positionY": 36,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 22,
-			"axialY": 38,
+			"positionX": 22,
+			"positionY": 38,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 22,
-			"axialY": 40,
+			"positionX": 22,
+			"positionY": 40,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 22,
-			"axialY": 42,
+			"positionX": 22,
+			"positionY": 42,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 22,
-			"axialY": 44,
+			"positionX": 22,
+			"positionY": 44,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 22,
-			"axialY": 46,
+			"positionX": 22,
+			"positionY": 46,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 22,
-			"axialY": 48,
+			"positionX": 22,
+			"positionY": 48,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 24,
-			"axialY": 0,
+			"positionX": 24,
+			"positionY": 0,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 24,
-			"axialY": 2,
+			"positionX": 24,
+			"positionY": 2,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 24,
-			"axialY": 4,
+			"positionX": 24,
+			"positionY": 4,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 24,
-			"axialY": 6,
+			"positionX": 24,
+			"positionY": 6,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 24,
-			"axialY": 8,
+			"positionX": 24,
+			"positionY": 8,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 24,
-			"axialY": 10,
+			"positionX": 24,
+			"positionY": 10,
 			"rotationY": 0,
-			"tileType": "MOUNTAIN"
+			"tileType": "MOUNTAIN",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 24,
-			"axialY": 12,
+			"positionX": 24,
+			"positionY": 12,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 24,
-			"axialY": 14,
+			"positionX": 24,
+			"positionY": 14,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 24,
-			"axialY": 16,
+			"positionX": 24,
+			"positionY": 16,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 24,
-			"axialY": 18,
+			"positionX": 24,
+			"positionY": 18,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 24,
-			"axialY": 20,
+			"positionX": 24,
+			"positionY": 20,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 24,
-			"axialY": 22,
+			"positionX": 24,
+			"positionY": 22,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 24,
-			"axialY": 24,
+			"positionX": 24,
+			"positionY": 24,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 24,
-			"axialY": 26,
+			"positionX": 24,
+			"positionY": 26,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 24,
-			"axialY": 28,
+			"positionX": 24,
+			"positionY": 28,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 24,
-			"axialY": 30,
+			"positionX": 24,
+			"positionY": 30,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 24,
-			"axialY": 32,
+			"positionX": 24,
+			"positionY": 32,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 24,
-			"axialY": 34,
+			"positionX": 24,
+			"positionY": 34,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 24,
-			"axialY": 36,
+			"positionX": 24,
+			"positionY": 36,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 24,
-			"axialY": 38,
+			"positionX": 24,
+			"positionY": 38,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 24,
-			"axialY": 40,
+			"positionX": 24,
+			"positionY": 40,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 24,
-			"axialY": 42,
+			"positionX": 24,
+			"positionY": 42,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 24,
-			"axialY": 44,
+			"positionX": 24,
+			"positionY": 44,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 24,
-			"axialY": 46,
+			"positionX": 24,
+			"positionY": 46,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 24,
-			"axialY": 48,
+			"positionX": 24,
+			"positionY": 48,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 26,
-			"axialY": 0,
+			"positionX": 26,
+			"positionY": 0,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 26,
-			"axialY": 2,
+			"positionX": 26,
+			"positionY": 2,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 26,
-			"axialY": 4,
+			"positionX": 26,
+			"positionY": 4,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 26,
-			"axialY": 6,
+			"positionX": 26,
+			"positionY": 6,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 26,
-			"axialY": 8,
+			"positionX": 26,
+			"positionY": 8,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 26,
-			"axialY": 10,
+			"positionX": 26,
+			"positionY": 10,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 26,
-			"axialY": 12,
+			"positionX": 26,
+			"positionY": 12,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 26,
-			"axialY": 14,
+			"positionX": 26,
+			"positionY": 14,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 26,
-			"axialY": 16,
+			"positionX": 26,
+			"positionY": 16,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 26,
-			"axialY": 18,
+			"positionX": 26,
+			"positionY": 18,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 26,
-			"axialY": 20,
+			"positionX": 26,
+			"positionY": 20,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 26,
-			"axialY": 22,
+			"positionX": 26,
+			"positionY": 22,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 26,
-			"axialY": 24,
+			"positionX": 26,
+			"positionY": 24,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 26,
-			"axialY": 26,
+			"positionX": 26,
+			"positionY": 26,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 26,
-			"axialY": 28,
+			"positionX": 26,
+			"positionY": 28,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 26,
-			"axialY": 30,
+			"positionX": 26,
+			"positionY": 30,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 26,
-			"axialY": 32,
+			"positionX": 26,
+			"positionY": 32,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 26,
-			"axialY": 34,
+			"positionX": 26,
+			"positionY": 34,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 26,
-			"axialY": 36,
+			"positionX": 26,
+			"positionY": 36,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 26,
-			"axialY": 38,
+			"positionX": 26,
+			"positionY": 38,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 26,
-			"axialY": 40,
+			"positionX": 26,
+			"positionY": 40,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 26,
-			"axialY": 42,
+			"positionX": 26,
+			"positionY": 42,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 26,
-			"axialY": 44,
+			"positionX": 26,
+			"positionY": 44,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 26,
-			"axialY": 46,
+			"positionX": 26,
+			"positionY": 46,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 26,
-			"axialY": 48,
+			"positionX": 26,
+			"positionY": 48,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 28,
-			"axialY": 0,
+			"positionX": 28,
+			"positionY": 0,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 28,
-			"axialY": 2,
+			"positionX": 28,
+			"positionY": 2,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 28,
-			"axialY": 4,
+			"positionX": 28,
+			"positionY": 4,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 28,
-			"axialY": 6,
+			"positionX": 28,
+			"positionY": 6,
 			"rotationY": -3.14159250259399,
-			"tileType": "LUMBERMILL"
+			"tileType": "LUMBERMILL",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 28,
-			"axialY": 8,
+			"positionX": 28,
+			"positionY": 8,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 28,
-			"axialY": 10,
+			"positionX": 28,
+			"positionY": 10,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 28,
-			"axialY": 12,
+			"positionX": 28,
+			"positionY": 12,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 28,
-			"axialY": 14,
+			"positionX": 28,
+			"positionY": 14,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 28,
-			"axialY": 16,
+			"positionX": 28,
+			"positionY": 16,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 28,
-			"axialY": 18,
+			"positionX": 28,
+			"positionY": 18,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 28,
-			"axialY": 20,
+			"positionX": 28,
+			"positionY": 20,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 28,
-			"axialY": 22,
+			"positionX": 28,
+			"positionY": 22,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 28,
-			"axialY": 24,
+			"positionX": 28,
+			"positionY": 24,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 28,
-			"axialY": 26,
+			"positionX": 28,
+			"positionY": 26,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 28,
-			"axialY": 28,
+			"positionX": 28,
+			"positionY": 28,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 28,
-			"axialY": 30,
+			"positionX": 28,
+			"positionY": 30,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 28,
-			"axialY": 32,
+			"positionX": 28,
+			"positionY": 32,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 28,
-			"axialY": 34,
+			"positionX": 28,
+			"positionY": 34,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 28,
-			"axialY": 36,
+			"positionX": 28,
+			"positionY": 36,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 28,
-			"axialY": 38,
+			"positionX": 28,
+			"positionY": 38,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 28,
-			"axialY": 40,
+			"positionX": 28,
+			"positionY": 40,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 28,
-			"axialY": 42,
+			"positionX": 28,
+			"positionY": 42,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 28,
-			"axialY": 44,
+			"positionX": 28,
+			"positionY": 44,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 28,
-			"axialY": 46,
+			"positionX": 28,
+			"positionY": 46,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 28,
-			"axialY": 48,
+			"positionX": 28,
+			"positionY": 48,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 30,
-			"axialY": 0,
+			"positionX": 30,
+			"positionY": 0,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 30,
-			"axialY": 2,
+			"positionX": 30,
+			"positionY": 2,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 30,
-			"axialY": 4,
+			"positionX": 30,
+			"positionY": 4,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 30,
-			"axialY": 6,
+			"positionX": 30,
+			"positionY": 6,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 30,
-			"axialY": 8,
+			"positionX": 30,
+			"positionY": 8,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 30,
-			"axialY": 10,
+			"positionX": 30,
+			"positionY": 10,
 			"rotationY": 0,
-			"tileType": "MOUNTAIN"
+			"tileType": "MOUNTAIN",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 30,
-			"axialY": 12,
+			"positionX": 30,
+			"positionY": 12,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 30,
-			"axialY": 14,
+			"positionX": 30,
+			"positionY": 14,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 30,
-			"axialY": 16,
+			"positionX": 30,
+			"positionY": 16,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 30,
-			"axialY": 18,
+			"positionX": 30,
+			"positionY": 18,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 30,
-			"axialY": 20,
+			"positionX": 30,
+			"positionY": 20,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 30,
-			"axialY": 22,
+			"positionX": 30,
+			"positionY": 22,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 30,
-			"axialY": 24,
+			"positionX": 30,
+			"positionY": 24,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 30,
-			"axialY": 26,
+			"positionX": 30,
+			"positionY": 26,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 30,
-			"axialY": 28,
+			"positionX": 30,
+			"positionY": 28,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 30,
-			"axialY": 30,
+			"positionX": 30,
+			"positionY": 30,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 30,
-			"axialY": 32,
+			"positionX": 30,
+			"positionY": 32,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 30,
-			"axialY": 34,
+			"positionX": 30,
+			"positionY": 34,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 30,
-			"axialY": 36,
+			"positionX": 30,
+			"positionY": 36,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 30,
-			"axialY": 38,
+			"positionX": 30,
+			"positionY": 38,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 30,
-			"axialY": 40,
+			"positionX": 30,
+			"positionY": 40,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 30,
-			"axialY": 42,
+			"positionX": 30,
+			"positionY": 42,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 30,
-			"axialY": 44,
+			"positionX": 30,
+			"positionY": 44,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 30,
-			"axialY": 46,
+			"positionX": 30,
+			"positionY": 46,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 30,
-			"axialY": 48,
+			"positionX": 30,
+			"positionY": 48,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 32,
-			"axialY": 0,
+			"positionX": 32,
+			"positionY": 0,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 32,
-			"axialY": 2,
+			"positionX": 32,
+			"positionY": 2,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 32,
-			"axialY": 4,
+			"positionX": 32,
+			"positionY": 4,
 			"rotationY": 0,
-			"tileType": "MOUNTAIN"
+			"tileType": "MOUNTAIN",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 32,
-			"axialY": 6,
+			"positionX": 32,
+			"positionY": 6,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 32,
-			"axialY": 8,
+			"positionX": 32,
+			"positionY": 8,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 32,
-			"axialY": 10,
+			"positionX": 32,
+			"positionY": 10,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 32,
-			"axialY": 12,
+			"positionX": 32,
+			"positionY": 12,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 32,
-			"axialY": 14,
+			"positionX": 32,
+			"positionY": 14,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 32,
-			"axialY": 16,
+			"positionX": 32,
+			"positionY": 16,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 32,
-			"axialY": 18,
+			"positionX": 32,
+			"positionY": 18,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 32,
-			"axialY": 20,
+			"positionX": 32,
+			"positionY": 20,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 32,
-			"axialY": 22,
+			"positionX": 32,
+			"positionY": 22,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 32,
-			"axialY": 24,
+			"positionX": 32,
+			"positionY": 24,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 32,
-			"axialY": 26,
+			"positionX": 32,
+			"positionY": 26,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 32,
-			"axialY": 28,
+			"positionX": 32,
+			"positionY": 28,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 32,
-			"axialY": 30,
+			"positionX": 32,
+			"positionY": 30,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 32,
-			"axialY": 32,
+			"positionX": 32,
+			"positionY": 32,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 32,
-			"axialY": 34,
+			"positionX": 32,
+			"positionY": 34,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 32,
-			"axialY": 36,
+			"positionX": 32,
+			"positionY": 36,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 32,
-			"axialY": 38,
+			"positionX": 32,
+			"positionY": 38,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 32,
-			"axialY": 40,
+			"positionX": 32,
+			"positionY": 40,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 32,
-			"axialY": 42,
+			"positionX": 32,
+			"positionY": 42,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 32,
-			"axialY": 44,
+			"positionX": 32,
+			"positionY": 44,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 32,
-			"axialY": 46,
+			"positionX": 32,
+			"positionY": 46,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 32,
-			"axialY": 48,
+			"positionX": 32,
+			"positionY": 48,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 34,
-			"axialY": 0,
+			"positionX": 34,
+			"positionY": 0,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 34,
-			"axialY": 2,
+			"positionX": 34,
+			"positionY": 2,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 34,
-			"axialY": 4,
+			"positionX": 34,
+			"positionY": 4,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 34,
-			"axialY": 6,
+			"positionX": 34,
+			"positionY": 6,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 34,
-			"axialY": 8,
+			"positionX": 34,
+			"positionY": 8,
 			"rotationY": -1.570796251297,
-			"tileType": "TOWER"
+			"tileType": "TOWER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 34,
-			"axialY": 10,
+			"positionX": 34,
+			"positionY": 10,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 34,
-			"axialY": 12,
+			"positionX": 34,
+			"positionY": 12,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 34,
-			"axialY": 14,
+			"positionX": 34,
+			"positionY": 14,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 34,
-			"axialY": 16,
+			"positionX": 34,
+			"positionY": 16,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 34,
-			"axialY": 18,
+			"positionX": 34,
+			"positionY": 18,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 34,
-			"axialY": 20,
+			"positionX": 34,
+			"positionY": 20,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 34,
-			"axialY": 22,
+			"positionX": 34,
+			"positionY": 22,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 34,
-			"axialY": 24,
+			"positionX": 34,
+			"positionY": 24,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 34,
-			"axialY": 26,
+			"positionX": 34,
+			"positionY": 26,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 34,
-			"axialY": 28,
+			"positionX": 34,
+			"positionY": 28,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 34,
-			"axialY": 30,
+			"positionX": 34,
+			"positionY": 30,
 			"rotationY": 1.57079637050629,
-			"tileType": "MARKET"
+			"tileType": "MARKET",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 34,
-			"axialY": 32,
+			"positionX": 34,
+			"positionY": 32,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 34,
-			"axialY": 34,
+			"positionX": 34,
+			"positionY": 34,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 34,
-			"axialY": 36,
+			"positionX": 34,
+			"positionY": 36,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 34,
-			"axialY": 38,
+			"positionX": 34,
+			"positionY": 38,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 34,
-			"axialY": 40,
+			"positionX": 34,
+			"positionY": 40,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 34,
-			"axialY": 42,
+			"positionX": 34,
+			"positionY": 42,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 34,
-			"axialY": 44,
+			"positionX": 34,
+			"positionY": 44,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 34,
-			"axialY": 46,
+			"positionX": 34,
+			"positionY": 46,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 34,
-			"axialY": 48,
+			"positionX": 34,
+			"positionY": 48,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 36,
-			"axialY": 0,
+			"positionX": 36,
+			"positionY": 0,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 36,
-			"axialY": 2,
+			"positionX": 36,
+			"positionY": 2,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 36,
-			"axialY": 4,
+			"positionX": 36,
+			"positionY": 4,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 36,
-			"axialY": 6,
+			"positionX": 36,
+			"positionY": 6,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 36,
-			"axialY": 8,
+			"positionX": 36,
+			"positionY": 8,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 36,
-			"axialY": 10,
+			"positionX": 36,
+			"positionY": 10,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 36,
-			"axialY": 12,
+			"positionX": 36,
+			"positionY": 12,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 36,
-			"axialY": 14,
+			"positionX": 36,
+			"positionY": 14,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 36,
-			"axialY": 16,
+			"positionX": 36,
+			"positionY": 16,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 36,
-			"axialY": 18,
+			"positionX": 36,
+			"positionY": 18,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 36,
-			"axialY": 20,
+			"positionX": 36,
+			"positionY": 20,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 36,
-			"axialY": 22,
+			"positionX": 36,
+			"positionY": 22,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 36,
-			"axialY": 24,
+			"positionX": 36,
+			"positionY": 24,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 36,
-			"axialY": 26,
+			"positionX": 36,
+			"positionY": 26,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 36,
-			"axialY": 28,
+			"positionX": 36,
+			"positionY": 28,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 36,
-			"axialY": 30,
+			"positionX": 36,
+			"positionY": 30,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 36,
-			"axialY": 32,
+			"positionX": 36,
+			"positionY": 32,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 36,
-			"axialY": 34,
+			"positionX": 36,
+			"positionY": 34,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 36,
-			"axialY": 36,
+			"positionX": 36,
+			"positionY": 36,
 			"rotationY": 0.000000174845553146952,
-			"tileType": "CASTLE"
+			"tileType": "CASTLE",
+			"buildingType": "UNSECURE"
 		},
 		{
-			"axialX": 36,
-			"axialY": 38,
+			"positionX": 36,
+			"positionY": 38,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 36,
-			"axialY": 40,
+			"positionX": 36,
+			"positionY": 40,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 36,
-			"axialY": 42,
+			"positionX": 36,
+			"positionY": 42,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 36,
-			"axialY": 44,
+			"positionX": 36,
+			"positionY": 44,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 36,
-			"axialY": 46,
+			"positionX": 36,
+			"positionY": 46,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 36,
-			"axialY": 48,
+			"positionX": 36,
+			"positionY": 48,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 38,
-			"axialY": 0,
+			"positionX": 38,
+			"positionY": 0,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 38,
-			"axialY": 2,
+			"positionX": 38,
+			"positionY": 2,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 38,
-			"axialY": 4,
+			"positionX": 38,
+			"positionY": 4,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 38,
-			"axialY": 6,
+			"positionX": 38,
+			"positionY": 6,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 38,
-			"axialY": 8,
+			"positionX": 38,
+			"positionY": 8,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 38,
-			"axialY": 10,
+			"positionX": 38,
+			"positionY": 10,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 38,
-			"axialY": 12,
+			"positionX": 38,
+			"positionY": 12,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 38,
-			"axialY": 14,
+			"positionX": 38,
+			"positionY": 14,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 38,
-			"axialY": 16,
+			"positionX": 38,
+			"positionY": 16,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 38,
-			"axialY": 18,
+			"positionX": 38,
+			"positionY": 18,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 38,
-			"axialY": 20,
+			"positionX": 38,
+			"positionY": 20,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 38,
-			"axialY": 22,
+			"positionX": 38,
+			"positionY": 22,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 38,
-			"axialY": 24,
+			"positionX": 38,
+			"positionY": 24,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 38,
-			"axialY": 26,
+			"positionX": 38,
+			"positionY": 26,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 38,
-			"axialY": 28,
+			"positionX": 38,
+			"positionY": 28,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 38,
-			"axialY": 30,
+			"positionX": 38,
+			"positionY": 30,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 38,
-			"axialY": 32,
+			"positionX": 38,
+			"positionY": 32,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 38,
-			"axialY": 34,
+			"positionX": 38,
+			"positionY": 34,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 38,
-			"axialY": 36,
+			"positionX": 38,
+			"positionY": 36,
 			"rotationY": 0,
-			"tileType": "MOUNTAIN"
+			"tileType": "MOUNTAIN",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 38,
-			"axialY": 38,
+			"positionX": 38,
+			"positionY": 38,
 			"rotationY": 0,
-			"tileType": "MOUNTAIN"
+			"tileType": "MOUNTAIN",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 38,
-			"axialY": 40,
+			"positionX": 38,
+			"positionY": 40,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 38,
-			"axialY": 42,
+			"positionX": 38,
+			"positionY": 42,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 38,
-			"axialY": 44,
+			"positionX": 38,
+			"positionY": 44,
 			"rotationY": 0,
-			"tileType": "MOUNTAIN"
+			"tileType": "MOUNTAIN",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 38,
-			"axialY": 46,
+			"positionX": 38,
+			"positionY": 46,
 			"rotationY": 0,
-			"tileType": "MOUNTAIN"
+			"tileType": "MOUNTAIN",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 38,
-			"axialY": 48,
+			"positionX": 38,
+			"positionY": 48,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 40,
-			"axialY": 0,
+			"positionX": 40,
+			"positionY": 0,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 40,
-			"axialY": 2,
+			"positionX": 40,
+			"positionY": 2,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 40,
-			"axialY": 4,
+			"positionX": 40,
+			"positionY": 4,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 40,
-			"axialY": 6,
+			"positionX": 40,
+			"positionY": 6,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 40,
-			"axialY": 8,
+			"positionX": 40,
+			"positionY": 8,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 40,
-			"axialY": 10,
+			"positionX": 40,
+			"positionY": 10,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 40,
-			"axialY": 12,
+			"positionX": 40,
+			"positionY": 12,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 40,
-			"axialY": 14,
+			"positionX": 40,
+			"positionY": 14,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 40,
-			"axialY": 16,
+			"positionX": 40,
+			"positionY": 16,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 40,
-			"axialY": 18,
+			"positionX": 40,
+			"positionY": 18,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 40,
-			"axialY": 20,
+			"positionX": 40,
+			"positionY": 20,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 40,
-			"axialY": 22,
+			"positionX": 40,
+			"positionY": 22,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 40,
-			"axialY": 24,
+			"positionX": 40,
+			"positionY": 24,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 40,
-			"axialY": 26,
+			"positionX": 40,
+			"positionY": 26,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 40,
-			"axialY": 28,
+			"positionX": 40,
+			"positionY": 28,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 40,
-			"axialY": 30,
+			"positionX": 40,
+			"positionY": 30,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 40,
-			"axialY": 32,
+			"positionX": 40,
+			"positionY": 32,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 40,
-			"axialY": 34,
+			"positionX": 40,
+			"positionY": 34,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 40,
-			"axialY": 36,
+			"positionX": 40,
+			"positionY": 36,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 40,
-			"axialY": 38,
+			"positionX": 40,
+			"positionY": 38,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 40,
-			"axialY": 40,
+			"positionX": 40,
+			"positionY": 40,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 40,
-			"axialY": 42,
+			"positionX": 40,
+			"positionY": 42,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 40,
-			"axialY": 44,
+			"positionX": 40,
+			"positionY": 44,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 40,
-			"axialY": 46,
+			"positionX": 40,
+			"positionY": 46,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 40,
-			"axialY": 48,
+			"positionX": 40,
+			"positionY": 48,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 42,
-			"axialY": 0,
+			"positionX": 42,
+			"positionY": 0,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 42,
-			"axialY": 2,
+			"positionX": 42,
+			"positionY": 2,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 42,
-			"axialY": 4,
+			"positionX": 42,
+			"positionY": 4,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 42,
-			"axialY": 6,
+			"positionX": 42,
+			"positionY": 6,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 42,
-			"axialY": 8,
+			"positionX": 42,
+			"positionY": 8,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 42,
-			"axialY": 10,
+			"positionX": 42,
+			"positionY": 10,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 42,
-			"axialY": 12,
+			"positionX": 42,
+			"positionY": 12,
 			"rotationY": 0,
-			"tileType": "MOUNTAIN"
+			"tileType": "MOUNTAIN",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 42,
-			"axialY": 14,
+			"positionX": 42,
+			"positionY": 14,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 42,
-			"axialY": 16,
+			"positionX": 42,
+			"positionY": 16,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 42,
-			"axialY": 18,
+			"positionX": 42,
+			"positionY": 18,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 42,
-			"axialY": 20,
+			"positionX": 42,
+			"positionY": 20,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 42,
-			"axialY": 22,
+			"positionX": 42,
+			"positionY": 22,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 42,
-			"axialY": 24,
+			"positionX": 42,
+			"positionY": 24,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 42,
-			"axialY": 26,
+			"positionX": 42,
+			"positionY": 26,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 42,
-			"axialY": 28,
+			"positionX": 42,
+			"positionY": 28,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 42,
-			"axialY": 30,
+			"positionX": 42,
+			"positionY": 30,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 42,
-			"axialY": 32,
+			"positionX": 42,
+			"positionY": 32,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 42,
-			"axialY": 34,
+			"positionX": 42,
+			"positionY": 34,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 42,
-			"axialY": 36,
+			"positionX": 42,
+			"positionY": 36,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 42,
-			"axialY": 38,
+			"positionX": 42,
+			"positionY": 38,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 42,
-			"axialY": 40,
+			"positionX": 42,
+			"positionY": 40,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 42,
-			"axialY": 42,
+			"positionX": 42,
+			"positionY": 42,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 42,
-			"axialY": 44,
+			"positionX": 42,
+			"positionY": 44,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 42,
-			"axialY": 46,
+			"positionX": 42,
+			"positionY": 46,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 42,
-			"axialY": 48,
+			"positionX": 42,
+			"positionY": 48,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 44,
-			"axialY": 0,
+			"positionX": 44,
+			"positionY": 0,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 44,
-			"axialY": 2,
+			"positionX": 44,
+			"positionY": 2,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 44,
-			"axialY": 4,
+			"positionX": 44,
+			"positionY": 4,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 44,
-			"axialY": 6,
+			"positionX": 44,
+			"positionY": 6,
 			"rotationY": 0,
-			"tileType": "MOUNTAIN"
+			"tileType": "MOUNTAIN",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 44,
-			"axialY": 8,
+			"positionX": 44,
+			"positionY": 8,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 44,
-			"axialY": 10,
+			"positionX": 44,
+			"positionY": 10,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 44,
-			"axialY": 12,
+			"positionX": 44,
+			"positionY": 12,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 44,
-			"axialY": 14,
+			"positionX": 44,
+			"positionY": 14,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 44,
-			"axialY": 16,
+			"positionX": 44,
+			"positionY": 16,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 44,
-			"axialY": 18,
+			"positionX": 44,
+			"positionY": 18,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 44,
-			"axialY": 20,
+			"positionX": 44,
+			"positionY": 20,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 44,
-			"axialY": 22,
+			"positionX": 44,
+			"positionY": 22,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 44,
-			"axialY": 24,
+			"positionX": 44,
+			"positionY": 24,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 44,
-			"axialY": 26,
+			"positionX": 44,
+			"positionY": 26,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 44,
-			"axialY": 28,
+			"positionX": 44,
+			"positionY": 28,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 44,
-			"axialY": 30,
+			"positionX": 44,
+			"positionY": 30,
 			"rotationY": 0,
-			"tileType": "MOUNTAIN"
+			"tileType": "MOUNTAIN",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 44,
-			"axialY": 32,
+			"positionX": 44,
+			"positionY": 32,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 44,
-			"axialY": 34,
+			"positionX": 44,
+			"positionY": 34,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 44,
-			"axialY": 36,
+			"positionX": 44,
+			"positionY": 36,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 44,
-			"axialY": 38,
+			"positionX": 44,
+			"positionY": 38,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 44,
-			"axialY": 40,
+			"positionX": 44,
+			"positionY": 40,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 44,
-			"axialY": 42,
+			"positionX": 44,
+			"positionY": 42,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 44,
-			"axialY": 44,
+			"positionX": 44,
+			"positionY": 44,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 44,
-			"axialY": 46,
+			"positionX": 44,
+			"positionY": 46,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 44,
-			"axialY": 48,
+			"positionX": 44,
+			"positionY": 48,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 46,
-			"axialY": 0,
+			"positionX": 46,
+			"positionY": 0,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 46,
-			"axialY": 2,
+			"positionX": 46,
+			"positionY": 2,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 46,
-			"axialY": 4,
+			"positionX": 46,
+			"positionY": 4,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 46,
-			"axialY": 6,
+			"positionX": 46,
+			"positionY": 6,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 46,
-			"axialY": 8,
+			"positionX": 46,
+			"positionY": 8,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 46,
-			"axialY": 10,
+			"positionX": 46,
+			"positionY": 10,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 46,
-			"axialY": 12,
+			"positionX": 46,
+			"positionY": 12,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 46,
-			"axialY": 14,
+			"positionX": 46,
+			"positionY": 14,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 46,
-			"axialY": 16,
+			"positionX": 46,
+			"positionY": 16,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 46,
-			"axialY": 18,
+			"positionX": 46,
+			"positionY": 18,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 46,
-			"axialY": 20,
+			"positionX": 46,
+			"positionY": 20,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 46,
-			"axialY": 22,
+			"positionX": 46,
+			"positionY": 22,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 46,
-			"axialY": 24,
+			"positionX": 46,
+			"positionY": 24,
 			"rotationY": 0,
-			"tileType": "MOUNTAIN"
+			"tileType": "MOUNTAIN",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 46,
-			"axialY": 26,
+			"positionX": 46,
+			"positionY": 26,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 46,
-			"axialY": 28,
+			"positionX": 46,
+			"positionY": 28,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 46,
-			"axialY": 30,
+			"positionX": 46,
+			"positionY": 30,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 46,
-			"axialY": 32,
+			"positionX": 46,
+			"positionY": 32,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 46,
-			"axialY": 34,
+			"positionX": 46,
+			"positionY": 34,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 46,
-			"axialY": 36,
+			"positionX": 46,
+			"positionY": 36,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 46,
-			"axialY": 38,
+			"positionX": 46,
+			"positionY": 38,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 46,
-			"axialY": 40,
+			"positionX": 46,
+			"positionY": 40,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 46,
-			"axialY": 42,
+			"positionX": 46,
+			"positionY": 42,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 46,
-			"axialY": 44,
+			"positionX": 46,
+			"positionY": 44,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 46,
-			"axialY": 46,
+			"positionX": 46,
+			"positionY": 46,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 46,
-			"axialY": 48,
+			"positionX": 46,
+			"positionY": 48,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 48,
-			"axialY": 0,
+			"positionX": 48,
+			"positionY": 0,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 48,
-			"axialY": 2,
+			"positionX": 48,
+			"positionY": 2,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 48,
-			"axialY": 4,
+			"positionX": 48,
+			"positionY": 4,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 48,
-			"axialY": 6,
+			"positionX": 48,
+			"positionY": 6,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 48,
-			"axialY": 8,
+			"positionX": 48,
+			"positionY": 8,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 48,
-			"axialY": 10,
+			"positionX": 48,
+			"positionY": 10,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 48,
-			"axialY": 12,
+			"positionX": 48,
+			"positionY": 12,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 48,
-			"axialY": 14,
+			"positionX": 48,
+			"positionY": 14,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 48,
-			"axialY": 16,
+			"positionX": 48,
+			"positionY": 16,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 48,
-			"axialY": 18,
+			"positionX": 48,
+			"positionY": 18,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 48,
-			"axialY": 20,
+			"positionX": 48,
+			"positionY": 20,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 48,
-			"axialY": 22,
+			"positionX": 48,
+			"positionY": 22,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 48,
-			"axialY": 24,
+			"positionX": 48,
+			"positionY": 24,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 48,
-			"axialY": 26,
+			"positionX": 48,
+			"positionY": 26,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 48,
-			"axialY": 28,
+			"positionX": 48,
+			"positionY": 28,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 48,
-			"axialY": 30,
+			"positionX": 48,
+			"positionY": 30,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 48,
-			"axialY": 32,
+			"positionX": 48,
+			"positionY": 32,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 48,
-			"axialY": 34,
+			"positionX": 48,
+			"positionY": 34,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 48,
-			"axialY": 36,
+			"positionX": 48,
+			"positionY": 36,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 48,
-			"axialY": 38,
+			"positionX": 48,
+			"positionY": 38,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 48,
-			"axialY": 40,
+			"positionX": 48,
+			"positionY": 40,
 			"rotationY": -3.14159250259399,
-			"tileType": "MINE"
+			"tileType": "MINE",
+			"buildingType": "ENEMY_BASE"
 		},
 		{
-			"axialX": 48,
-			"axialY": 42,
+			"positionX": 48,
+			"positionY": 42,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 48,
-			"axialY": 44,
+			"positionX": 48,
+			"positionY": 44,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 48,
-			"axialY": 46,
+			"positionX": 48,
+			"positionY": 46,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 48,
-			"axialY": 48,
+			"positionX": 48,
+			"positionY": 48,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 50,
-			"axialY": 0,
+			"positionX": 50,
+			"positionY": 0,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 50,
-			"axialY": 2,
+			"positionX": 50,
+			"positionY": 2,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 50,
-			"axialY": 4,
+			"positionX": 50,
+			"positionY": 4,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 50,
-			"axialY": 6,
+			"positionX": 50,
+			"positionY": 6,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 50,
-			"axialY": 8,
+			"positionX": 50,
+			"positionY": 8,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 50,
-			"axialY": 10,
+			"positionX": 50,
+			"positionY": 10,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 50,
-			"axialY": 12,
+			"positionX": 50,
+			"positionY": 12,
 			"rotationY": 0,
-			"tileType": "MOUNTAIN"
+			"tileType": "MOUNTAIN",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 50,
-			"axialY": 14,
+			"positionX": 50,
+			"positionY": 14,
 			"rotationY": 0,
-			"tileType": "MOUNTAIN"
+			"tileType": "MOUNTAIN",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 50,
-			"axialY": 16,
+			"positionX": 50,
+			"positionY": 16,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 50,
-			"axialY": 18,
+			"positionX": 50,
+			"positionY": 18,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 50,
-			"axialY": 20,
+			"positionX": 50,
+			"positionY": 20,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 50,
-			"axialY": 22,
+			"positionX": 50,
+			"positionY": 22,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 50,
-			"axialY": 24,
+			"positionX": 50,
+			"positionY": 24,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 50,
-			"axialY": 26,
+			"positionX": 50,
+			"positionY": 26,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 50,
-			"axialY": 28,
+			"positionX": 50,
+			"positionY": 28,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 50,
-			"axialY": 30,
+			"positionX": 50,
+			"positionY": 30,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 50,
-			"axialY": 32,
+			"positionX": 50,
+			"positionY": 32,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 50,
-			"axialY": 34,
+			"positionX": 50,
+			"positionY": 34,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 50,
-			"axialY": 36,
+			"positionX": 50,
+			"positionY": 36,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 50,
-			"axialY": 38,
+			"positionX": 50,
+			"positionY": 38,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 50,
-			"axialY": 40,
+			"positionX": 50,
+			"positionY": 40,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 50,
-			"axialY": 42,
+			"positionX": 50,
+			"positionY": 42,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 50,
-			"axialY": 44,
+			"positionX": 50,
+			"positionY": 44,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 50,
-			"axialY": 46,
+			"positionX": 50,
+			"positionY": 46,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 50,
-			"axialY": 48,
+			"positionX": 50,
+			"positionY": 48,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 52,
-			"axialY": 0,
+			"positionX": 52,
+			"positionY": 0,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 52,
-			"axialY": 2,
+			"positionX": 52,
+			"positionY": 2,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 52,
-			"axialY": 4,
+			"positionX": 52,
+			"positionY": 4,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 52,
-			"axialY": 6,
+			"positionX": 52,
+			"positionY": 6,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 52,
-			"axialY": 8,
+			"positionX": 52,
+			"positionY": 8,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 52,
-			"axialY": 10,
+			"positionX": 52,
+			"positionY": 10,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 52,
-			"axialY": 12,
+			"positionX": 52,
+			"positionY": 12,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 52,
-			"axialY": 14,
+			"positionX": 52,
+			"positionY": 14,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 52,
-			"axialY": 16,
+			"positionX": 52,
+			"positionY": 16,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 52,
-			"axialY": 18,
+			"positionX": 52,
+			"positionY": 18,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 52,
-			"axialY": 20,
+			"positionX": 52,
+			"positionY": 20,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 52,
-			"axialY": 22,
+			"positionX": 52,
+			"positionY": 22,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 52,
-			"axialY": 24,
+			"positionX": 52,
+			"positionY": 24,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 52,
-			"axialY": 26,
+			"positionX": 52,
+			"positionY": 26,
 			"rotationY": 0,
-			"tileType": "MOUNTAIN"
+			"tileType": "MOUNTAIN",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 52,
-			"axialY": 28,
+			"positionX": 52,
+			"positionY": 28,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 52,
-			"axialY": 30,
+			"positionX": 52,
+			"positionY": 30,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 52,
-			"axialY": 32,
+			"positionX": 52,
+			"positionY": 32,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 52,
-			"axialY": 34,
+			"positionX": 52,
+			"positionY": 34,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 52,
-			"axialY": 36,
+			"positionX": 52,
+			"positionY": 36,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 52,
-			"axialY": 38,
+			"positionX": 52,
+			"positionY": 38,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 52,
-			"axialY": 40,
+			"positionX": 52,
+			"positionY": 40,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 52,
-			"axialY": 42,
+			"positionX": 52,
+			"positionY": 42,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 52,
-			"axialY": 44,
+			"positionX": 52,
+			"positionY": 44,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 52,
-			"axialY": 46,
+			"positionX": 52,
+			"positionY": 46,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 52,
-			"axialY": 48,
+			"positionX": 52,
+			"positionY": 48,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 54,
-			"axialY": 0,
+			"positionX": 54,
+			"positionY": 0,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 54,
-			"axialY": 2,
+			"positionX": 54,
+			"positionY": 2,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 54,
-			"axialY": 4,
+			"positionX": 54,
+			"positionY": 4,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 54,
-			"axialY": 6,
+			"positionX": 54,
+			"positionY": 6,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 54,
-			"axialY": 8,
+			"positionX": 54,
+			"positionY": 8,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 54,
-			"axialY": 10,
+			"positionX": 54,
+			"positionY": 10,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 54,
-			"axialY": 12,
+			"positionX": 54,
+			"positionY": 12,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 54,
-			"axialY": 14,
+			"positionX": 54,
+			"positionY": 14,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 54,
-			"axialY": 16,
+			"positionX": 54,
+			"positionY": 16,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 54,
-			"axialY": 18,
+			"positionX": 54,
+			"positionY": 18,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 54,
-			"axialY": 20,
+			"positionX": 54,
+			"positionY": 20,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 54,
-			"axialY": 22,
+			"positionX": 54,
+			"positionY": 22,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 54,
-			"axialY": 24,
+			"positionX": 54,
+			"positionY": 24,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 54,
-			"axialY": 26,
+			"positionX": 54,
+			"positionY": 26,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 54,
-			"axialY": 28,
+			"positionX": 54,
+			"positionY": 28,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 54,
-			"axialY": 30,
+			"positionX": 54,
+			"positionY": 30,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 54,
-			"axialY": 32,
+			"positionX": 54,
+			"positionY": 32,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 54,
-			"axialY": 34,
+			"positionX": 54,
+			"positionY": 34,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 54,
-			"axialY": 36,
+			"positionX": 54,
+			"positionY": 36,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 54,
-			"axialY": 38,
+			"positionX": 54,
+			"positionY": 38,
 			"rotationY": 0,
-			"tileType": "MOUNTAIN"
+			"tileType": "MOUNTAIN",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 54,
-			"axialY": 40,
+			"positionX": 54,
+			"positionY": 40,
 			"rotationY": 0,
-			"tileType": "ROCK"
+			"tileType": "ROCK",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 54,
-			"axialY": 42,
+			"positionX": 54,
+			"positionY": 42,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 54,
-			"axialY": 44,
+			"positionX": 54,
+			"positionY": 44,
 			"rotationY": 0,
-			"tileType": "MOUNTAIN"
+			"tileType": "MOUNTAIN",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 54,
-			"axialY": 46,
+			"positionX": 54,
+			"positionY": 46,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 54,
-			"axialY": 48,
+			"positionX": 54,
+			"positionY": 48,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 56,
-			"axialY": 0,
+			"positionX": 56,
+			"positionY": 0,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 56,
-			"axialY": 2,
+			"positionX": 56,
+			"positionY": 2,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 56,
-			"axialY": 4,
+			"positionX": 56,
+			"positionY": 4,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 56,
-			"axialY": 6,
+			"positionX": 56,
+			"positionY": 6,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 56,
-			"axialY": 8,
+			"positionX": 56,
+			"positionY": 8,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 56,
-			"axialY": 10,
+			"positionX": 56,
+			"positionY": 10,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 56,
-			"axialY": 12,
+			"positionX": 56,
+			"positionY": 12,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 56,
-			"axialY": 14,
+			"positionX": 56,
+			"positionY": 14,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 56,
-			"axialY": 16,
+			"positionX": 56,
+			"positionY": 16,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 56,
-			"axialY": 18,
+			"positionX": 56,
+			"positionY": 18,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 56,
-			"axialY": 20,
+			"positionX": 56,
+			"positionY": 20,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 56,
-			"axialY": 22,
+			"positionX": 56,
+			"positionY": 22,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 56,
-			"axialY": 24,
+			"positionX": 56,
+			"positionY": 24,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 56,
-			"axialY": 26,
+			"positionX": 56,
+			"positionY": 26,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 56,
-			"axialY": 28,
+			"positionX": 56,
+			"positionY": 28,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 56,
-			"axialY": 30,
+			"positionX": 56,
+			"positionY": 30,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 56,
-			"axialY": 32,
+			"positionX": 56,
+			"positionY": 32,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 56,
-			"axialY": 34,
+			"positionX": 56,
+			"positionY": 34,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 56,
-			"axialY": 36,
+			"positionX": 56,
+			"positionY": 36,
 			"rotationY": 0,
-			"tileType": "FOREST"
+			"tileType": "FOREST",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 56,
-			"axialY": 38,
+			"positionX": 56,
+			"positionY": 38,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 56,
-			"axialY": 40,
+			"positionX": 56,
+			"positionY": 40,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 56,
-			"axialY": 42,
+			"positionX": 56,
+			"positionY": 42,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 56,
-			"axialY": 44,
+			"positionX": 56,
+			"positionY": 44,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 56,
-			"axialY": 46,
+			"positionX": 56,
+			"positionY": 46,
 			"rotationY": 0,
-			"tileType": "GRASS"
+			"tileType": "GRASS",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 56,
-			"axialY": 48,
+			"positionX": 56,
+			"positionY": 48,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 58,
-			"axialY": 0,
+			"positionX": 58,
+			"positionY": 0,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 58,
-			"axialY": 2,
+			"positionX": 58,
+			"positionY": 2,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 58,
-			"axialY": 4,
+			"positionX": 58,
+			"positionY": 4,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 58,
-			"axialY": 6,
+			"positionX": 58,
+			"positionY": 6,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 58,
-			"axialY": 8,
+			"positionX": 58,
+			"positionY": 8,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 58,
-			"axialY": 10,
+			"positionX": 58,
+			"positionY": 10,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 58,
-			"axialY": 12,
+			"positionX": 58,
+			"positionY": 12,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 58,
-			"axialY": 14,
+			"positionX": 58,
+			"positionY": 14,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 58,
-			"axialY": 16,
+			"positionX": 58,
+			"positionY": 16,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 58,
-			"axialY": 18,
+			"positionX": 58,
+			"positionY": 18,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 58,
-			"axialY": 20,
+			"positionX": 58,
+			"positionY": 20,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 58,
-			"axialY": 22,
+			"positionX": 58,
+			"positionY": 22,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 58,
-			"axialY": 24,
+			"positionX": 58,
+			"positionY": 24,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 58,
-			"axialY": 26,
+			"positionX": 58,
+			"positionY": 26,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 58,
-			"axialY": 28,
+			"positionX": 58,
+			"positionY": 28,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 58,
-			"axialY": 30,
+			"positionX": 58,
+			"positionY": 30,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 58,
-			"axialY": 32,
+			"positionX": 58,
+			"positionY": 32,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 58,
-			"axialY": 34,
+			"positionX": 58,
+			"positionY": 34,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 58,
-			"axialY": 36,
+			"positionX": 58,
+			"positionY": 36,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 58,
-			"axialY": 38,
+			"positionX": 58,
+			"positionY": 38,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 58,
-			"axialY": 40,
+			"positionX": 58,
+			"positionY": 40,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 58,
-			"axialY": 42,
+			"positionX": 58,
+			"positionY": 42,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 58,
-			"axialY": 44,
+			"positionX": 58,
+			"positionY": 44,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 58,
-			"axialY": 46,
+			"positionX": 58,
+			"positionY": 46,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		},
 		{
-			"axialX": 58,
-			"axialY": 48,
+			"positionX": 58,
+			"positionY": 48,
 			"rotationY": 0,
-			"tileType": "WATER"
+			"tileType": "WATER",
+			"buildingType": "SECURE"
 		}
 	],
 	"version": "1.0.0"

@@ -23,17 +23,31 @@ public enum TileType {
 
 [Tool]
 public partial class Tile : Node3D {
-    [Export] private Node _content;
+    [Export] private Node3D _building;
 
-    public Vector2I position;
-    public TileType tileType;
+    private Node3D _troop;
+    private Vector2I _position;
+    private TileType _tileType;
 
-    public void Match() {
-        Position = new Vector3(position.X, 0, position.Y);
+    public Building Building => HasBuilding ? _building as Building : null;
+    public Troop Troop => HasBuilding ? _troop as Troop : null;
+    public bool HasBuilding => _building != null;
+    public bool HasUnit => _troop != null;
+    public Vector2I Pos => _position;
+    public TileType TileType => _tileType;
+    public Vector3 Center => new Vector3(_position.X, 0, _position.Y);
+
+    public void Load(Vector2I position, TileType tileType) {
+        _position = position;
+        _tileType = tileType;
+        Position = new Vector3(_position.X, 0, _position.Y);
     }
 
-    public void Load(Vector2I position) {
-        this.position = position;
-        Match();
+    public void ClearTroop() {
+        _troop = null;
+    }
+
+    public void SetTroop(Troop troop) {
+        _troop = troop;
     }
 }

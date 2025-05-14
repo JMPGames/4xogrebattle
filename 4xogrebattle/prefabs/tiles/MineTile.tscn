@@ -1,13 +1,17 @@
-[gd_scene load_steps=4 format=3 uid="uid://ujd70jw7ufl4"]
+[gd_scene load_steps=5 format=3 uid="uid://ujd70jw7ufl4"]
 
 [ext_resource type="Script" path="res://Script/Components/Tile.cs" id="1_vee1p"]
 [ext_resource type="PackedScene" uid="uid://clpt8inwlr062" path="res://assets/models/tiles/grass.gltf.glb" id="2_8u8cx"]
 [ext_resource type="PackedScene" uid="uid://dqnnwq5omwkc6" path="res://assets/models/map_pieces/mine.gltf.glb" id="3_rklr6"]
+[ext_resource type="Script" path="res://Script/Components/Building.cs" id="4_gd45w"]
 
-[node name="MineTile" type="Node3D"]
+[node name="MineTile" type="Node3D" node_paths=PackedStringArray("_building")]
 script = ExtResource("1_vee1p")
+_building = NodePath("grass_gltf/mine_gltf")
 
 [node name="grass_gltf" parent="." instance=ExtResource("2_8u8cx")]
 
 [node name="mine_gltf" parent="grass_gltf" instance=ExtResource("3_rklr6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+script = ExtResource("4_gd45w")
+_buildingType = 2

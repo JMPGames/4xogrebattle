@@ -11,4 +11,3 @@ _lakeMinSize = 8
 _lakeMaxSize = 15
 _chanceForLake = 0.8
 fileName = "test"
-_showTileSelector = true

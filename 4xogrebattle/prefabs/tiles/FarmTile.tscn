@@ -1,13 +1,16 @@
-[gd_scene load_steps=4 format=3 uid="uid://bgl2ng1db0523"]
+[gd_scene load_steps=5 format=3 uid="uid://bgl2ng1db0523"]
 
 [ext_resource type="Script" path="res://Script/Components/Tile.cs" id="1_rrhif"]
 [ext_resource type="PackedScene" uid="uid://clpt8inwlr062" path="res://assets/models/tiles/grass.gltf.glb" id="2_e4hsh"]
 [ext_resource type="PackedScene" uid="uid://bin6hkx8q6y0h" path="res://assets/models/map_pieces/farm_plot.gltf.glb" id="3_hftaj"]
+[ext_resource type="Script" path="res://Script/Components/Building.cs" id="4_8anb0"]
 
-[node name="FarmTile" type="Node3D"]
+[node name="FarmTile" type="Node3D" node_paths=PackedStringArray("_building")]
 script = ExtResource("1_rrhif")
+_building = NodePath("grass_gltf/farm_plot_gltf")
 
 [node name="grass_gltf" parent="." instance=ExtResource("2_e4hsh")]
 
 [node name="farm_plot_gltf" parent="grass_gltf" instance=ExtResource("3_hftaj")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+script = ExtResource("4_8anb0")

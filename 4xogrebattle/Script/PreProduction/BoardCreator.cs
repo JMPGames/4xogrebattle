@@ -57,10 +57,12 @@ public partial class BoardCreator : Node {
             {"version", "1.0.0"}
         };
         foreach(KeyValuePair<Vector2I, Tile> p in tiles) {
+            string buildingType = p.Value.HasBuilding ? p.Value.Building.BuildingType.ToString() : "";
             Godot.Collections.Dictionary saveData = new Godot.Collections.Dictionary() {
-                {"tileType", p.Value.tileType.ToString()},
-                {"axialX", p.Value.position.X},
-                {"axialY", p.Value.position.Y},
+                {"tileType", p.Value.TileType.ToString()},
+                {"buildingType", buildingType},
+                {"positionX", p.Value.Pos.X},
+                {"positionY", p.Value.Pos.Y},
                 {"rotationY", p.Value.Rotation.Y}
             };
             tileSaveData.Add(saveData);
@@ -94,11 +96,15 @@ public partial class BoardCreator : Node {
             Godot.Collections.Array tileSaveData = (Godot.Collections.Array)data["tiles"];
             foreach (Godot.Collections.Dictionary sd in tileSaveData) {
                 string tileTypeString = (string)sd["tileType"];
+                string buildingTypeString = (string)sd["buildingType"];
                 TileType tileType = (TileType)Enum.Parse(typeof(TileType), tileTypeString);
-                Vector2I axialCoordinate = new Vector2I((int)sd["axialX"], (int)sd["axialY"]);
-                Tile tile = CreateTileAtPosition(tileType, axialCoordinate);
+                Vector2I position = new Vector2I((int)sd["positionX"], (int)sd["positionY"]);
+                Tile tile = CreateTileAtPosition(tileType, position);
+                if (tile.HasBuilding) {
+                    tile.Building.BuildingType = (BuildingType)Enum.Parse(typeof(BuildingType), buildingTypeString);
+                }
                 tile.Rotation = new Vector3(0, (float)sd["rotationY"], 0);
-                tile.Load(axialCoordinate);
+                tile.Load(position, tileType);
             }
         }
         saveFileAccess.Close();
@@ -264,11 +270,10 @@ public partial class BoardCreator : Node {
             RemoveTile();
         }
         PackedScene prefab = GetPrefabByType(tileType);
-        Node n = prefab.Instantiate();
-        Tile tile = n as Tile;
-        AddChild(n);
-        tile.tileType = tileType;
-        tile.Load(position);
+        Node tileNode = prefab.Instantiate();
+        Tile tile = tileNode as Tile;
+        AddChild(tileNode);
+        tile.Load(position, tileType);
         tiles[position] = tile;
         return tile;
     }

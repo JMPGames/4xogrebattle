@@ -1,13 +1,16 @@
-[gd_scene load_steps=4 format=3 uid="uid://k25aw86hate2"]
+[gd_scene load_steps=5 format=3 uid="uid://k25aw86hate2"]
 
 [ext_resource type="Script" path="res://Script/Components/Tile.cs" id="1_hhcvw"]
 [ext_resource type="PackedScene" uid="uid://clpt8inwlr062" path="res://assets/models/tiles/grass.gltf.glb" id="2_0jl3n"]
 [ext_resource type="PackedScene" uid="uid://cqhfqke2nfmpo" path="res://assets/models/map_pieces/house.gltf.glb" id="3_w4ml1"]
+[ext_resource type="Script" path="res://Script/Components/Building.cs" id="4_rjut0"]
 
-[node name="HouseTile" type="Node3D"]
+[node name="HouseTile" type="Node3D" node_paths=PackedStringArray("_building")]
 script = ExtResource("1_hhcvw")
+_building = NodePath("grass_gltf/house_gltf")
 
 [node name="grass_gltf" parent="." instance=ExtResource("2_0jl3n")]
 
 [node name="house_gltf" parent="grass_gltf" instance=ExtResource("3_w4ml1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+script = ExtResource("4_rjut0")
