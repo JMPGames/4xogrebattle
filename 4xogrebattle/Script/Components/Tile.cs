@@ -25,14 +25,14 @@ public enum TileType {
 public partial class Tile : Node3D {
     [Export] private Node3D _building;
 
-    private Node3D _troop;
+    private Node3D _entity;
     private Vector2I _position;
     private TileType _tileType;
 
     public Building Building => HasBuilding ? _building as Building : null;
-    public Troop Troop => HasBuilding ? _troop as Troop : null;
+    public BoardEntity Entity => HasEntity ? _entity as BoardEntity : null;
     public bool HasBuilding => _building != null;
-    public bool HasUnit => _troop != null;
+    public bool HasEntity => _entity != null;
     public Vector2I Pos => _position;
     public TileType TileType => _tileType;
     public Vector3 Center => new Vector3(_position.X, 0, _position.Y);
@@ -43,11 +43,11 @@ public partial class Tile : Node3D {
         Position = new Vector3(_position.X, 0, _position.Y);
     }
 
-    public void ClearTroop() {
-        _troop = null;
+    public void ClearEntity() {
+        _entity = null;
     }
 
-    public void SetTroop(Troop troop) {
-        _troop = troop;
+    public void SetEntity(BoardEntity entity) {
+        _entity = entity;
     }
 }

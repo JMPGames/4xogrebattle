@@ -28,16 +28,17 @@ Idea:
     Gear should be kept simple to reduce balancing scope. Weapon and Armor only?
     Gear progression should be like Valkyrie Profile, where inbetween each level you get better options
 
-Some signifier that a building is marked UNSECURE
 Build out entities and definitions for each building type
 Build out player and enemy entites and definitions
-Link Entities with Tile script
 Add in inputs to move the TileSelector in game, or hovering tiles with mouse
 Add in "select" action on selected or clicked tile, giving player options based on Entity linked to tile
 Buildings to heal player units, when units occupy building tile
 Selecting building tile shows occupying units, and other options if added?
 Set up building tiles that need to be secured, with option for regular/mini boss/boss battle.
 Set up overworld turn based movement
+Troop movement range depends on unit stats, MIN 3, MAX 5
+    Units should have move stat, MIN 0.1, MAX 0.4. (display as 1 through 4)
+    6 units with higher move stats would result in 5 movement range
 Fog of war (friendly buildings and units can see whats in tiles X tiles away)
 	Should this be literal fog or darkness, except for around units?
 	Will forest tiles hide entities unless a unit is in adjacent an tile?
