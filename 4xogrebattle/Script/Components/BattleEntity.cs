@@ -6,8 +6,14 @@ public enum BattleEntityType {
 }
 
 public partial class BattleEntity : Node3D {
+    [Export] private string _unitName;
+    public string UnitName => _unitName;
+
+    private Troop _troop;
+
     public BattleStats Stats {get; private set;}
     public Health Health {get; private set;}
+    public BattleJob Job {get; protected set;}
     private Vector2I _position;
     private int _health;
 
@@ -22,6 +28,7 @@ public partial class BattleEntity : Node3D {
         }
     }
 
+    public virtual BattleJob BattleJob => BattleJob.FIGHTER;
     public virtual void TakeAction() {}
 
     public override void _Ready() {
@@ -30,7 +37,8 @@ public partial class BattleEntity : Node3D {
         Health.Setup(this);
     }
 
-    public void Load(int health = -1) {
+    public void Load(Troop troop, int health = -1) {
+        _troop = troop;
         Health.HP = health == -1 ? Stats.MaxHealth : health;
     }
 }

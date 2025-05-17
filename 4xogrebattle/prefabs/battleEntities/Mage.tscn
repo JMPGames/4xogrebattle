@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=3 uid="uid://bcm1cnjsl2er1"]
+
+[ext_resource type="Script" path="res://Script/Components/BattleEntity.cs" id="1_kiksa"]
+[ext_resource type="Script" path="res://Script/Components/BattleStats.cs" id="2_2sdvv"]
+[ext_resource type="Script" path="res://Script/Components/Health.cs" id="3_ort81"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_h6f78"]
+
+[node name="Mage" type="Node3D"]
+script = ExtResource("1_kiksa")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+mesh = SubResource("CapsuleMesh_h6f78")
+
+[node name="Stats" type="Node" parent="."]
+script = ExtResource("2_2sdvv")
+_maxHealth = 32
+_physicalAttack = 2
+_magicAttack = 12
+_physicalDefense = 2
+_magicDefense = 8
+_speed = 2
+_move = 3
+
+[node name="Health" type="Node" parent="."]
+script = ExtResource("3_ort81")

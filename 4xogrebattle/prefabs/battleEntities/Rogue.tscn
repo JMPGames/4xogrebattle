@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://dinh3250eqxgv"]
+
+[ext_resource type="Script" path="res://Script/Components/BattleEntity.cs" id="1_xnohc"]
+[ext_resource type="Script" path="res://Script/Components/BattleStats.cs" id="2_h6d8p"]
+[ext_resource type="Script" path="res://Script/Components/Health.cs" id="3_b7qso"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_h6f78"]
+
+[node name="Rogue" type="Node3D"]
+script = ExtResource("1_xnohc")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+mesh = SubResource("CapsuleMesh_h6f78")
+
+[node name="Stats" type="Node" parent="."]
+script = ExtResource("2_h6d8p")
+_maxHealth = 42
+_physicalAttack = 12
+_physicalDefense = 3
+_magicDefense = 3
+_speed = 3
+_move = 5
+
+[node name="Health" type="Node" parent="."]
+script = ExtResource("3_b7qso")

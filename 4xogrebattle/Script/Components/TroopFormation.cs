@@ -1,30 +1,40 @@
-public class TroopFormation {
-    private readonly Unit[] _units;
+using Godot;
 
-    public TroopFormation() {
-        _units = new Unit[Common.MAX_UNITS_PER_TROOP];
+[GlobalClass]
+public partial class TroopFormation : Node {
+    [Signal] public delegate void BattleEntityRemovedEventHandler();
+
+    private readonly Troop _troop;
+    private readonly BattleEntity[] _battleEntities;
+
+    public TroopFormation(Troop troop) {
+        _troop = troop;
+        _battleEntities = new BattleEntity[Common.MAX_ENTITIES_PER_TROOP];
     }
 
-    public Unit[] GetAllUnits => _units;
+    public BattleEntity[] GetAllBattleEntities => _battleEntities;
 
-    public Unit GetUnit(int i) {
-        return Common.IndexAndValueExistsInArray(i, _units) ? _units[i] : null;
+    public BattleEntity GetBattleEntity(int i) {
+        return Common.IndexAndValueExistsInArray(i, _battleEntities) ? _battleEntities[i] : null;
     }
 
-    public bool SetUnit(int i, Unit unit) {
-        if (!Common.IndexExistsInArray(i, _units)) {
+    public bool SetBattleEntity(int i, BattleEntity battleEntity) {
+        if (!Common.IndexExistsInArray(i, _battleEntities)) {
             return false;
         }
-        else if (_units[i] != null) {
+        else if (battleEntity == null || _battleEntities[i] != null) {
             return false;
         }
-        _units[i] = unit;
+        _battleEntities[i] = battleEntity;
+        _troop.MoveMod += battleEntity.Stats.Move / 10;
         return true;
     }
 
-    public bool RemoveUnit(int i) {
-        if (Common.IndexExistsInArray(i, _units)) {
-            _units[i] = null;
+    public bool RemoveBattleEntity(int i) {
+        if (Common.IndexExistsInArray(i, _battleEntities)) {
+            EmitSignal(SignalName.BattleEntityRemoved, _battleEntities[i]);
+            _troop.MoveMod -= _battleEntities[i].Stats.Move / 10;
+            _battleEntities[i] = null;
             return true;
         }
         return false;

@@ -15,3 +15,15 @@ public enum Facing {
     SOUTH,
     WEST,
 }
+
+public enum BattleJob {
+    FIGHTER,
+    KNIGHT,
+    ROGUE,
+    ARCHER,
+    CLERIC,
+    MAGE,
+    ORC,
+    GOBLIN,
+    DEMON_MAGE
+}

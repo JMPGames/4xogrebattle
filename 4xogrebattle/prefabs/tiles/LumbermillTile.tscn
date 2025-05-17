@@ -1,11 +1,13 @@
-[gd_scene load_steps=5 format=3 uid="uid://diexx28325s34"]
+[gd_scene load_steps=6 format=3 uid="uid://diexx28325s34"]
 
 [ext_resource type="PackedScene" uid="uid://clpt8inwlr062" path="res://assets/models/tiles/grass.gltf.glb" id="1_d7o6n"]
 [ext_resource type="PackedScene" uid="uid://comlosyywedw3" path="res://assets/models/map_pieces/lumbermill.gltf.glb" id="2_rvu2t"]
 [ext_resource type="Script" path="res://Script/Components/Tile.cs" id="3_xrt8v"]
 [ext_resource type="Script" path="res://Script/Components/Building.cs" id="4_w4qnf"]
 
-[node name="LumberMillTile" type="Node3D" node_paths=PackedStringArray("_building")]
+[sub_resource type="BoxShape3D" id="BoxShape3D_i4yd3"]
+
+[node name="LumberMillTile" type="StaticBody3D" node_paths=PackedStringArray("_building")]
 script = ExtResource("3_xrt8v")
 _building = NodePath("lumbermill_gltf")
 
@@ -14,3 +16,7 @@ _building = NodePath("lumbermill_gltf")
 [node name="lumbermill_gltf" parent="." instance=ExtResource("2_rvu2t")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
 script = ExtResource("4_w4qnf")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 1, 0, 0, 0, 2, 0, 1, 0)
+shape = SubResource("BoxShape3D_i4yd3")

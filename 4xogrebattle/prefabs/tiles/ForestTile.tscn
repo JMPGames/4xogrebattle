@@ -1,13 +1,19 @@
-[gd_scene load_steps=4 format=3 uid="uid://brpi44bwpf6yq"]
+[gd_scene load_steps=5 format=3 uid="uid://brpi44bwpf6yq"]
 
 [ext_resource type="Script" path="res://Script/Components/Tile.cs" id="1_gu8gg"]
 [ext_resource type="PackedScene" uid="uid://clpt8inwlr062" path="res://assets/models/tiles/grass.gltf.glb" id="2_lv63v"]
 [ext_resource type="PackedScene" uid="uid://bvs7y75k32tpr" path="res://assets/models/map_pieces/forest.gltf.glb" id="3_x7jgg"]
 
-[node name="ForestTile" type="Node3D"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_kd37e"]
+
+[node name="ForestTile" type="StaticBody3D"]
 script = ExtResource("1_gu8gg")
 
 [node name="grass_gltf" parent="." instance=ExtResource("2_lv63v")]
 
 [node name="forest_gltf" parent="grass_gltf" instance=ExtResource("3_x7jgg")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 1, 0, 0, 0, 2, 0, 1, 0)
+shape = SubResource("BoxShape3D_kd37e")

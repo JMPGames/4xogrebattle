@@ -50,4 +50,17 @@ public partial class Tile : Node3D {
     public void SetEntity(BoardEntity entity) {
         _entity = entity;
     }
+
+    public void OnHoverEnter() {
+    }
+
+    public void OnHoverExit() {
+    }
+
+    public void OnClick() {
+        GD.Print($"Tile clicked at: {_position}---------");
+        GD.Print($"Entity Name: {Entity?.Name}");
+        GD.Print($"Building Name: {Building?.Name}");
+        GD.Print("--------------------------------");
+    }
 }

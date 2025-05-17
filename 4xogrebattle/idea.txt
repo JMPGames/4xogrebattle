@@ -28,9 +28,7 @@ Idea:
     Gear should be kept simple to reduce balancing scope. Weapon and Armor only?
     Gear progression should be like Valkyrie Profile, where inbetween each level you get better options
 
-Build out entities and definitions for each building type
-Build out player and enemy entites and definitions
-Add in inputs to move the TileSelector in game, or hovering tiles with mouse
+Set up that will spawn player troops
 Add in "select" action on selected or clicked tile, giving player options based on Entity linked to tile
 Buildings to heal player units, when units occupy building tile
 Selecting building tile shows occupying units, and other options if added?
@@ -43,6 +41,10 @@ Fog of war (friendly buildings and units can see whats in tiles X tiles away)
 	Should this be literal fog or darkness, except for around units?
 	Will forest tiles hide entities unless a unit is in adjacent an tile?
     This will also hide player units from enemy ai
+
+Build out entities and definitions for each building type
+    Should more buildings have interactions?
+        Barrack/ArcheryRange/Towers could enhance troop formations for X turns after using?
 
 Overworld initiating battle when player and enemy units meet at a tile
 Set up prototype player and enemy classes, with battle actions

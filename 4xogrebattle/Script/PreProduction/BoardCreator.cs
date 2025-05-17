@@ -1,6 +1,7 @@
 using Godot;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 [Tool]
 public partial class BoardCreator : Node {
@@ -16,32 +17,18 @@ public partial class BoardCreator : Node {
     [Export] private double _chanceForLake = 0.5f;
     [Export] public string fileName = DEFAULT_FILE_NAME;
 
+    public List<Troop> EnemyTroops {get; private set;}
+    public Godot.Collections.Dictionary BoardRewards {get; private set;}
+
     private Node3D _marker;
     private Vector2I _markerPosition;
     private Dictionary<Vector2I, Tile> tiles = new Dictionary<Vector2I, Tile>();
 
     private PackedScene tileSelectorPrefab = GD.Load<PackedScene>(TILE_PREFAB_PATH + "TileSelector.tscn");
-    private PackedScene grassTilePrefab = GD.Load<PackedScene>(TILE_PREFAB_PATH + "GrassTile.tscn");
-    private PackedScene rockTilePrefab = GD.Load<PackedScene>(TILE_PREFAB_PATH + "RockTile.tscn");
-    private PackedScene sandTilePrefab = GD.Load<PackedScene>(TILE_PREFAB_PATH + "SandTile.tscn");
-    private PackedScene forestTilePrefab = GD.Load<PackedScene>(TILE_PREFAB_PATH + "ForestTile.tscn");
-    private PackedScene mountainTilePrefab = GD.Load<PackedScene>(TILE_PREFAB_PATH + "MountainTile.tscn");
-    private PackedScene waterTilePrefab = GD.Load<PackedScene>(TILE_PREFAB_PATH + "WaterTile.tscn");
-    private PackedScene archeryRangeTilePrefab = GD.Load<PackedScene>(TILE_PREFAB_PATH + "ArcheryRangeTile.tscn");
-    private PackedScene barrackTilePrefab = GD.Load<PackedScene>(TILE_PREFAB_PATH + "BarrackTile.tscn");
-    private PackedScene castleTilePrefab = GD.Load<PackedScene>(TILE_PREFAB_PATH + "CastleTile.tscn");
-    private PackedScene farmTilePrefab = GD.Load<PackedScene>(TILE_PREFAB_PATH + "FarmTile.tscn");
-    private PackedScene houseTilePrefab = GD.Load<PackedScene>(TILE_PREFAB_PATH + "HouseTile.tscn");
-    private PackedScene lumbermillTilePrefab = GD.Load<PackedScene>(TILE_PREFAB_PATH + "LumbermillTile.tscn");
-    private PackedScene marketTilePrefab = GD.Load<PackedScene>(TILE_PREFAB_PATH + "MarketTile.tscn");
-    private PackedScene millTilePrefab = GD.Load<PackedScene>(TILE_PREFAB_PATH + "MillTile.tscn");
-    private PackedScene mineTilePrefab = GD.Load<PackedScene>(TILE_PREFAB_PATH + "MineTile.tscn");
-    private PackedScene towerTilePrefab = GD.Load<PackedScene>(TILE_PREFAB_PATH + "TowerTile.tscn");
-    private PackedScene waterMillTilePrefab = GD.Load<PackedScene>(TILE_PREFAB_PATH + "WaterMillTile.tscn");
-    private PackedScene wellTilePrefab = GD.Load<PackedScene>(TILE_PREFAB_PATH + "WellTile.tscn");
 
     public override void _Ready() {
         SetProcessInput(true);
+        EnemyTroops = new List<Troop>();
         _marker = tileSelectorPrefab.Instantiate() as Node3D;
         AddChild(_marker);
         _markerPosition = new Vector2I(0, 0);
@@ -77,10 +64,10 @@ public partial class BoardCreator : Node {
     }
 
     public void LoadButton() {
-        Load(fileName);
+        Load(fileName, false);
     }
 
-    public void Load(string fileToLoad = "") {
+    public void Load(string fileToLoad = "", bool runtime = true) {
         Clear();
         if (fileToLoad != "") {
             fileName = fileToLoad;
@@ -94,21 +81,40 @@ public partial class BoardCreator : Node {
         if (result.VariantType == Variant.Type.Dictionary) {
             Godot.Collections.Dictionary data = (Godot.Collections.Dictionary)result;
             Godot.Collections.Array tileSaveData = (Godot.Collections.Array)data["tiles"];
+            Godot.Collections.Array boardEnemyTroops = (Godot.Collections.Array)data["enemies"];
+            BoardRewards = (Godot.Collections.Dictionary)data["rewards"];
             foreach (Godot.Collections.Dictionary sd in tileSaveData) {
                 string tileTypeString = (string)sd["tileType"];
                 string buildingTypeString = (string)sd["buildingType"];
-                TileType tileType = (TileType)Enum.Parse(typeof(TileType), tileTypeString);
+                TileType tileType = Common.GetEnumFromString<TileType>(tileTypeString);
                 Vector2I position = new Vector2I((int)sd["positionX"], (int)sd["positionY"]);
                 Tile tile = CreateTileAtPosition(tileType, position);
                 if (tile.HasBuilding) {
-                    tile.Building.BuildingType = (BuildingType)Enum.Parse(typeof(BuildingType), buildingTypeString);
+                    tile.Building.Load(Common.GetEnumFromString<BuildingType>(buildingTypeString));
                 }
                 tile.Rotation = new Vector3(0, (float)sd["rotationY"], 0);
                 tile.Load(position, tileType);
+
+                List<Variant> filteredEnemies = boardEnemyTroops.Where(d => {
+                    if (d.VariantType != Variant.Type.Dictionary) {
+                        return false;
+                    }
+
+                    Godot.Collections.Dictionary data = (Godot.Collections.Dictionary)d;
+                    if (!data.ContainsKey("positionX") || !data.ContainsKey("positionY")) {
+                        return false;
+                    }
+
+                    return (int)data["positionX"] == position.X && (int)data["positionY"] == position.Y;
+                }).ToList();
+                if (filteredEnemies.Count > 0) {
+                    Godot.Collections.Dictionary enemyTroopData = (Godot.Collections.Dictionary)filteredEnemies[0];
+                    CreateTroopAtPosition(tile, (Godot.Collections.Array)enemyTroopData["formation"]);
+                }
             }
         }
         saveFileAccess.Close();
-        _markerPosition = new Vector2I(0, 0);
+        _markerPosition = runtime ? new Vector2I(-200, -200) : new Vector2I(0, 0);
         UpdateMarker();
     }
 
@@ -128,7 +134,7 @@ public partial class BoardCreator : Node {
         bool hasLake = rand.NextDouble() <= _chanceForLake;
         for (int x = 0; x < _width; x++) {
             for (int y = 0; y < _height; y++) {
-                Vector2I position = new Vector2I(x * 2, y * 2);
+                Vector2I position = new Vector2I(x * Common.TILE_SIZE, y * Common.TILE_SIZE);
                 if (
                     hasLake &&
                     x >= lakeStartX && x < lakeStartX + lakeWidth &&
@@ -161,23 +167,22 @@ public partial class BoardCreator : Node {
     }
 
     public void MoveUp() {
-        _markerPosition += new Vector2I(0, +2);
+        _markerPosition += new Vector2I(0, +Common.TILE_SIZE);
         UpdateMarker();
     }
 
     public void MoveDown() {
-        _markerPosition += new Vector2I(0, -2);
+        _markerPosition += new Vector2I(0, -Common.TILE_SIZE);
         UpdateMarker();
     }
 
-
     public void MoveRight() {
-        _markerPosition += new Vector2I(-2, 0);
+        _markerPosition += new Vector2I(-Common.TILE_SIZE, 0);
         UpdateMarker();
     }
 
     public void MoveLeft() {
-        _markerPosition += new Vector2I(+2, 0);
+        _markerPosition += new Vector2I(+Common.TILE_SIZE, 0);
         UpdateMarker();
     }
 
@@ -269,7 +274,7 @@ public partial class BoardCreator : Node {
         if (tiles.ContainsKey(position)) {
             RemoveTile();
         }
-        PackedScene prefab = GetPrefabByType(tileType);
+        PackedScene prefab = Common.GetTilePrefabByType(tileType);
         Node tileNode = prefab.Instantiate();
         Tile tile = tileNode as Tile;
         AddChild(tileNode);
@@ -278,29 +283,30 @@ public partial class BoardCreator : Node {
         return tile;
     }
 
-    private PackedScene GetPrefabByType(TileType tileType) {
-        return tileType switch
-        {
-            TileType.GRASS => grassTilePrefab,
-            TileType.ROCK => rockTilePrefab,
-            TileType.SAND => sandTilePrefab,
-            TileType.FOREST => forestTilePrefab,
-            TileType.MOUNTAIN => mountainTilePrefab,
-            TileType.WATER => waterTilePrefab,
-            TileType.ARCHERY_RANGE => archeryRangeTilePrefab,
-            TileType.BARRACK => barrackTilePrefab,
-            TileType.CASTLE => castleTilePrefab,
-            TileType.FARM => farmTilePrefab,
-            TileType.HOUSE => houseTilePrefab,
-            TileType.LUMBERMILL => lumbermillTilePrefab,
-            TileType.MARKET => marketTilePrefab,
-            TileType.MILL => millTilePrefab,
-            TileType.MINE => mineTilePrefab,
-            TileType.TOWER => towerTilePrefab,
-            TileType.WATER_MILL => waterMillTilePrefab,
-            TileType.WELL => wellTilePrefab,
-            _ => grassTilePrefab,
-        };
-
+    private Troop CreateTroopAtPosition(Tile tile, Godot.Collections.Array formation) {
+        Node troopNode = Common.GetTroopPrefab.Instantiate();
+        Troop troop = troopNode as Troop;
+        AddChild(troopNode);
+        BattleEntity[] battleEntities = new BattleEntity[Common.MAX_ENTITIES_PER_TROOP];
+        for (int i = 0; i < formation.Count; i++) {
+            if (formation[i].VariantType != Variant.Type.Dictionary) {
+                continue;
+            }
+            else {
+                Godot.Collections.Dictionary battleEntityData = (Godot.Collections.Dictionary)formation[i];
+                string battleJobString = (string)battleEntityData["type"];
+                BattleJob battleJob = Common.GetEnumFromString<BattleJob>(battleJobString);
+                Node3D battleEntityNode = (Node3D)Common.GetJobPrefabByType(battleJob).Instantiate();
+                BattleEntity battleEntity = battleEntityNode as BattleEntity;
+                AddChild(battleEntityNode);
+                battleEntityNode.Visible = false;
+                battleEntity.Load(troop);
+                battleEntities[i] = battleEntity;
+                troop.Formation.SetBattleEntity(i, battleEntity);
+            }
+        }
+        troop.Load(tile, Facing.NORTH, battleEntities);
+        EnemyTroops.Add(troop);
+        return troop;
     }
 }

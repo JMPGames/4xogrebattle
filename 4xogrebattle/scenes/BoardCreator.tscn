@@ -10,4 +10,4 @@ _height = 25
 _lakeMinSize = 8
 _lakeMaxSize = 15
 _chanceForLake = 0.8
-fileName = "test"
+fileName = "prototypemap"

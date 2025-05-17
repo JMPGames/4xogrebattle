@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://cy2g5fykd6yb7"]
+
+[ext_resource type="Script" path="res://Script/Components/BattleEntity.cs" id="1_afefb"]
+[ext_resource type="Script" path="res://Script/Components/BattleStats.cs" id="2_r6y1s"]
+[ext_resource type="Script" path="res://Script/Components/Health.cs" id="3_d8m74"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_h6f78"]
+
+[node name="Fighter" type="Node3D"]
+script = ExtResource("1_afefb")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+mesh = SubResource("CapsuleMesh_h6f78")
+
+[node name="Stats" type="Node" parent="."]
+script = ExtResource("2_r6y1s")
+_maxHealth = 50
+_physicalAttack = 10
+_physicalDefense = 4
+_magicDefense = 3
+_speed = 2
+_move = 4
+
+[node name="Health" type="Node" parent="."]
+script = ExtResource("3_d8m74")

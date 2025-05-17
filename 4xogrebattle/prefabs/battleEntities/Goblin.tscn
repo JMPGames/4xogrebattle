@@ -1,0 +1,28 @@
+[gd_scene load_steps=6 format=3 uid="uid://w7ug6si581wg"]
+
+[ext_resource type="Script" path="res://Script/Components/BattleEntity.cs" id="1_pbvrc"]
+[ext_resource type="Material" uid="uid://cypl87niojmcx" path="res://assets/materials/selector_arrow.tres" id="2_e4ww1"]
+[ext_resource type="Script" path="res://Script/Components/BattleStats.cs" id="2_hq6d6"]
+[ext_resource type="Script" path="res://Script/Components/Health.cs" id="3_loakt"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_h6f78"]
+
+[node name="Goblin" type="Node3D"]
+script = ExtResource("1_pbvrc")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+material_override = ExtResource("2_e4ww1")
+mesh = SubResource("CapsuleMesh_h6f78")
+
+[node name="Stats" type="Node" parent="."]
+script = ExtResource("2_hq6d6")
+_maxHealth = 40
+_physicalAttack = 10
+_physicalDefense = 6
+_magicDefense = 4
+_speed = 4
+_move = 4
+
+[node name="Health" type="Node" parent="."]
+script = ExtResource("3_loakt")

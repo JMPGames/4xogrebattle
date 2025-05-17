@@ -1,20 +1,17 @@
 using Godot;
 
-public enum BoardEntityType {
-    BUILDING,
-    TROOP,
-}
-
 public partial class BoardEntity: Node3D {
-    public Tile Tile {get; protected set;}
-    public BoardEntityType BoardEntityType {get; protected set;}
+    protected const int BASE_MOVE = 3;
+
+    public Tile Tile { get; protected set; }
     public Faction Faction {get; protected set;}
     public Facing Facing {get; protected set;}
 
     public virtual void DisplayInfo() {}
+    public virtual bool CanMove() => false;
 
     public void MoveTo(Tile targetTile) {
-        if (BoardEntityType == BoardEntityType.BUILDING) {
+        if (!CanMove()) {
             return;
         }
         if (Tile?.Entity == this) {
@@ -22,20 +19,23 @@ public partial class BoardEntity: Node3D {
         }
         // TODO:: Add lerp/tween movement instead of instant placement
         SetFacing(targetTile);
-        Tile = targetTile;
-        Tile?.SetEntity(this);
+        SetTile(targetTile);
         Match();
     }
 
     protected void LoadLocation(Tile tile, Facing facing) {
-        Tile = tile;
-        Tile?.SetEntity(this);
+        SetTile(tile);
         Facing = facing;
         Match();
     }
 
+    protected void SetTile(Tile tile) {
+        Tile = tile;
+        tile?.SetEntity(this);
+    }
+
     private void Match() {
-        Position = Tile.Center;
+        Position = new Vector3(Tile.Center.X, 1, Tile.Center.Z);
         RotationDegrees = new Vector3(0, (int)Facing * 90, 0);
     }
 

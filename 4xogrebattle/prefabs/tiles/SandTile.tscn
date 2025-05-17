@@ -1,9 +1,15 @@
-[gd_scene load_steps=3 format=3 uid="uid://duvwkxnotk7g8"]
+[gd_scene load_steps=4 format=3 uid="uid://duvwkxnotk7g8"]
 
 [ext_resource type="Script" path="res://Script/Components/Tile.cs" id="1_vkc1c"]
 [ext_resource type="PackedScene" uid="uid://dq8gfpmijbsln" path="res://assets/models/tiles/sand.gltf.glb" id="2_45wxg"]
 
-[node name="SandTile" type="Node3D"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_0ge34"]
+
+[node name="SandTile" type="StaticBody3D"]
 script = ExtResource("1_vkc1c")
 
 [node name="sand_gltf" parent="." instance=ExtResource("2_45wxg")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 1, 0, 0, 0, 2, 0, 1, 0)
+shape = SubResource("BoxShape3D_0ge34")

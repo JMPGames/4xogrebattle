@@ -1,9 +1,15 @@
-[gd_scene load_steps=3 format=3 uid="uid://bw3fmiuvegieh"]
+[gd_scene load_steps=4 format=3 uid="uid://bw3fmiuvegieh"]
 
 [ext_resource type="Script" path="res://Script/Components/Tile.cs" id="1_urw3u"]
 [ext_resource type="PackedScene" uid="uid://bgj7ovbjiwg04" path="res://assets/models/tiles/water.gltf.glb" id="2_x846j"]
 
-[node name="WaterTile" type="Node3D"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_uri5n"]
+
+[node name="WaterTile" type="StaticBody3D"]
 script = ExtResource("1_urw3u")
 
 [node name="water_gltf" parent="." instance=ExtResource("2_x846j")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 1, 0, 0, 0, 1.98, 0, 1, 0)
+shape = SubResource("BoxShape3D_uri5n")

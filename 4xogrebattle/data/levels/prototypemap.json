@@ -1,4 +1,35 @@
 {
+    "rewards": {
+        "gold": 100
+    },
+    "enemies": [
+        {
+            "type": "t1",
+            "positionX": 6,
+            "positionY": 20,
+            "formation": [
+                null,
+                {"type": "ORC"},
+                {"type": "ORC"},
+                null,
+                {"type": "GOBLIN"},
+                {"type": "DEMON_MAGE"}
+            ]
+        },
+        {
+            "type": "t2",
+            "positionX": 6,
+            "positionY": 22,
+            "formation": [
+                {"type": "ORC"},
+                null,
+                null,
+                {"type": "DEMON_MAGE"},
+                {"type": "GOBLIN"},
+                {"type": "DEMON_MAGE"}
+            ]
+        }
+    ],
 	"tiles": [
 		{
 			"positionX": 0,
