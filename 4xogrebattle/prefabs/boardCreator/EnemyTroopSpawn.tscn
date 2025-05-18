@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://djytgaipfxu8f"]
+
+[ext_resource type="Material" uid="uid://cypl87niojmcx" path="res://assets/materials/selector_arrow.tres" id="1_3pwj5"]
+[ext_resource type="Script" path="res://Script/PreProduction/BoardSpawnPoint.cs" id="2_5vt57"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_5tofm"]
+
+[node name="EnemyTroopSpawn" type="Node3D"]
+script = ExtResource("2_5vt57")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+material_override = ExtResource("1_3pwj5")
+mesh = SubResource("CapsuleMesh_5tofm")

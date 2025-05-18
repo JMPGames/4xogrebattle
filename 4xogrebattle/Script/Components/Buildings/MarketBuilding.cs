@@ -25,6 +25,6 @@ public partial class MarketBuilding : Building {
     }
 
     private bool CanUse(BoardEntity boardEntity) {
-        return BuildingType == BuildingType.SECURE && boardEntity.Faction == Faction.PLAYER;
+        return boardEntity.Faction == Faction.PLAYER;
     }
 }

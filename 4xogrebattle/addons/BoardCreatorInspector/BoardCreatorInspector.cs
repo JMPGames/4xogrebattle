@@ -25,6 +25,9 @@ public partial class BoardCreatorInspector : EditorInspectorPlugin {
         keyInput.CallDeferred("grab_focus");
         AddButton("Refocus Key Inputs", keyInput.GrabFocus, new Color(0.5f, 0.55f, 0.55f));
 
+        AddButton("([) Place Player Troop Spawn", bc.PlacePlayerTroopSpawn, new Color(0.49f, 0.65f, 0.13f));
+        AddButton("(]) Place Enemy Troop Spawn", bc.PlaceEnemyTroopSpawn, new Color(0.65f, 0.41f, 0.13f));
+
         AddButton("(G) Place Grass", bc.PlaceGrass, new Color(0.49f, 0.65f, 0.13f));
         AddButton("(R) Place Rock ", bc.PlaceRock, new Color(0.63f, 0.32f, 0.18f));
         AddButton("(E) Place Sand", bc.PlaceSand, new Color(0.66f, 0.59f, 0.41f));
