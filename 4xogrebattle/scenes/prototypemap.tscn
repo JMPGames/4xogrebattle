@@ -1,18 +1,18 @@
 [gd_scene load_steps=9 format=3 uid="uid://lun6r3keu0kf"]
 
-[ext_resource type="Script" path="res://Script/Controllers/GameController.cs" id="1_rcven"]
-[ext_resource type="Script" path="res://Script/PreProduction/BoardCreator.cs" id="2_7b3we"]
-[ext_resource type="Script" path="res://Script/Controllers/InputController.cs" id="3_2mua7"]
-[ext_resource type="Script" path="res://Script/Controllers/CameraController.cs" id="3_gdk55"]
-[ext_resource type="Script" path="res://Script/Systems/StateMachine/StateMachine.cs" id="4_fw2ww"]
-[ext_resource type="Script" path="res://Script/States/OverworldExploreState.cs" id="6_fxs5m"]
-[ext_resource type="Script" path="res://Script/States/LoadLevelState.cs" id="6_rbvlk"]
-[ext_resource type="Script" path="res://Script/Systems/Data/DataManager.cs" id="8_1goid"]
+[ext_resource type="Script" path="res://Script/Controllers/GameController.cs" id="1_rywbk"]
+[ext_resource type="Script" path="res://Script/Systems/Data/DataManager.cs" id="2_34oio"]
+[ext_resource type="Script" path="res://Script/PreProduction/BoardCreator.cs" id="3_j4gxe"]
+[ext_resource type="Script" path="res://Script/Controllers/CameraController.cs" id="4_xa8sv"]
+[ext_resource type="Script" path="res://Script/Controllers/InputController.cs" id="5_ps67p"]
+[ext_resource type="Script" path="res://Script/Systems/StateMachine/StateMachine.cs" id="6_f3hlx"]
+[ext_resource type="Script" path="res://Script/States/LoadLevelState.cs" id="7_kv5ge"]
+[ext_resource type="Script" path="res://Script/States/OverworldExploreState.cs" id="8_4wc5j"]
 
 [node name="main" type="Node3D"]
 
 [node name="GameController" type="Node" parent="." node_paths=PackedStringArray("_dataManager", "_board", "_inputController", "_cameraController", "_stateMachine", "_initialState")]
-script = ExtResource("1_rcven")
+script = ExtResource("1_rywbk")
 _dataManager = NodePath("DataManager")
 _board = NodePath("BoardController")
 _inputController = NodePath("InputController")
@@ -25,16 +25,16 @@ transform = Transform3D(1, 0, 0, 0, 0.59093, 0.806723, 0, -0.806723, 0.59093, 0,
 light_energy = 0.5
 
 [node name="DataManager" type="Node" parent="GameController"]
-script = ExtResource("8_1goid")
+script = ExtResource("2_34oio")
 
 [node name="BoardController" type="Node3D" parent="GameController"]
-script = ExtResource("2_7b3we")
+script = ExtResource("3_j4gxe")
 _width = 0
 fileName = "prototypemap"
 
 [node name="CameraController" type="Node3D" parent="GameController" node_paths=PackedStringArray("_camera")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 10)
-script = ExtResource("3_gdk55")
+script = ExtResource("4_xa8sv")
 _camera = NodePath("Camera3D")
 _moveXLimit = 60.0
 _moveYLimit = 50.0
@@ -44,15 +44,15 @@ transform = Transform3D(1, 0, 0, 0, 0.707107, 0.707107, 0, -0.707107, 0.707107, 
 size = 5.0
 
 [node name="InputController" type="Node" parent="GameController"]
-script = ExtResource("3_2mua7")
+script = ExtResource("5_ps67p")
 
 [node name="StateMachine" type="Node" parent="GameController"]
-script = ExtResource("4_fw2ww")
+script = ExtResource("6_f3hlx")
 
 [node name="LoadLevelState" type="Node" parent="GameController/StateMachine" node_paths=PackedStringArray("_stateAfterLoad")]
-script = ExtResource("6_rbvlk")
+script = ExtResource("7_kv5ge")
 _stateAfterLoad = NodePath("../OverworldSelectState")
 _mapFileName = "prototypemap"
 
 [node name="OverworldSelectState" type="Node" parent="GameController/StateMachine"]
-script = ExtResource("6_fxs5m")
+script = ExtResource("8_4wc5j")

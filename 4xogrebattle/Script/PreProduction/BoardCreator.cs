@@ -137,7 +137,7 @@ public partial class BoardCreator : Node {
                 if (filteredEnemySpawns.Count > 0) {
                     Godot.Collections.Dictionary enemyTroopData = (Godot.Collections.Dictionary)filteredEnemySpawns[0];
                     if (runtime) {
-                        CreateTroopAtPosition(tile, (Godot.Collections.Array)enemyTroopData["formation"]);
+                        // CreateTroopAtPosition(tile, (Godot.Collections.Array)enemyTroopData["formation"]);
                     }
                     else {
                         CreateTroopSpawnAtPosition(position, Faction.ENEMY);
