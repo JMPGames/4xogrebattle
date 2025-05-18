@@ -34,6 +34,13 @@ public partial class InspectorKeyInputControl : Control {
                     boardCreator?.MoveRight();
                     break;
 
+                case Key.Bracketleft:
+                    boardCreator?.PlacePlayerTroopSpawn();
+                    break;
+                case Key.Bracketright:
+                    boardCreator?.PlaceEnemyTroopSpawn();
+                    break;
+
                 case Key.G:
                     boardCreator?.PlaceGrass();
                     break;

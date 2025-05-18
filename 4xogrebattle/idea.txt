@@ -22,29 +22,29 @@ Idea:
 	!!Try to keep simple!!
 	Game is about going from location to location clearing out the enemies in a Ogre Battle/Symphony of War style.
 	Enemies on map spawn from certain tiles (caves, portals, etc).
-    Player must move to these tiles, beat a boss/mini boss, to destroy the spawner.
+	Player must move to these tiles, beat a boss/mini boss, to destroy the spawner.
 	Player can earn gold on map, by recapturing building tiles, or defeating enemies
 	Player can buy and equip units with gear inbetween levels.
-    Gear should be kept simple to reduce balancing scope. Weapon and Armor only?
-    Gear progression should be like Valkyrie Profile, where inbetween each level you get better options
+	Gear should be kept simple to reduce balancing scope. Weapon and Armor only?
+	Gear progression should be like Valkyrie Profile, where inbetween each level you get better options
 
-Set up that will spawn player troops
+Board turnList and Board movement game loop
 Add in "select" action on selected or clicked tile, giving player options based on Entity linked to tile
 Buildings to heal player units, when units occupy building tile
 Selecting building tile shows occupying units, and other options if added?
 Set up building tiles that need to be secured, with option for regular/mini boss/boss battle.
 Set up overworld turn based movement
 Troop movement range depends on unit stats, MIN 3, MAX 5
-    Units should have move stat, MIN 0.1, MAX 0.4. (display as 1 through 4)
-    6 units with higher move stats would result in 5 movement range
+	Units should have move stat, MIN 0.1, MAX 0.4. (display as 1 through 4)
+	6 units with higher move stats would result in 5 movement range
 Fog of war (friendly buildings and units can see whats in tiles X tiles away)
 	Should this be literal fog or darkness, except for around units?
 	Will forest tiles hide entities unless a unit is in adjacent an tile?
-    This will also hide player units from enemy ai
+	This will also hide player units from enemy ai
 
 Build out entities and definitions for each building type
-    Should more buildings have interactions?
-        Barrack/ArcheryRange/Towers could enhance troop formations for X turns after using?
+	Should more buildings have interactions?
+		Barrack/ArcheryRange/Towers could enhance troop formations for X turns after using?
 
 Overworld initiating battle when player and enemy units meet at a tile
 Set up prototype player and enemy classes, with battle actions

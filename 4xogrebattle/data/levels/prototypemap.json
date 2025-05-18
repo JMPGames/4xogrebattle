@@ -1,24 +1,29 @@
 {
 	"enemySpawns": [
 		{
+			"id": 0,
 			"positionX": 6,
 			"positionY": 20
 		},
 		{
+			"id": 1,
 			"positionX": 6,
 			"positionY": 22
 		},
 		{
+			"id": 2,
 			"positionX": 8,
 			"positionY": 18
 		}
 	],
 	"playerSpawns": [
 		{
+			"id": 0,
 			"positionX": 4,
 			"positionY": 6
 		},
 		{
+			"id": 1,
 			"positionX": 4,
 			"positionY": 8
 		}

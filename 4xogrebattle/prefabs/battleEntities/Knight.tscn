@@ -8,6 +8,7 @@
 
 [node name="Knight" type="Node3D"]
 script = ExtResource("1_o7c0s")
+_unitName = "Knight"
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)

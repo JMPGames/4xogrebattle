@@ -62,5 +62,11 @@ public partial class Tile : Node3D {
         GD.Print($"Entity Name: {Entity?.Name}");
         GD.Print($"Building Name: {Building?.Name}");
         GD.Print("--------------------------------");
+        if (HasEntity) {
+            Troop t = Entity as Troop;
+            foreach(BattleEntity be in t.Formation.GetAllBattleEntities) {
+                GD.Print(be?.UnitName);
+            }
+        }
     }
 }

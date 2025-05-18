@@ -6,6 +6,7 @@ using System.Linq;
 [Tool]
 public partial class BoardCreator : Node {
     private const string SAVE_PATH = "res://data/levels/";
+    private const string CONFIG_PATH = "res://data/levelConfig/";
     private const string TILE_PREFAB_PATH = "res://prefabs/tiles/";
     private const string TROOP_SPAWN_PREFAB_PATH = "res://prefabs/boardCreator/";
     private const float ROTATION_PER = 90.0f;
@@ -19,7 +20,9 @@ public partial class BoardCreator : Node {
     [Export] private double _chanceForLake = 0.5f;
     [Export] public string fileName = DEFAULT_FILE_NAME;
 
+    public List<Troop> PlayerTroops {get; private set;}
     public List<Troop> EnemyTroops {get; private set;}
+    public List<Node3D> PlayerSpawnPoints => _spawnPoints[Faction.PLAYER];
     public Godot.Collections.Dictionary BoardRewards {get; private set;}
 
     private Node3D _marker;
@@ -33,6 +36,7 @@ public partial class BoardCreator : Node {
 
     public override void _Ready() {
         SetProcessInput(true);
+        PlayerTroops = new List<Troop>();
         EnemyTroops = new List<Troop>();
         _spawnPoints[Faction.PLAYER] = new List<Node3D>();
         _spawnPoints[Faction.ENEMY] = new List<Node3D>();
@@ -60,6 +64,7 @@ public partial class BoardCreator : Node {
         List<Node3D> playerSpawns = _spawnPoints[Faction.PLAYER];
         for (int i = 0; i < playerSpawns.Count; i++) {
             Godot.Collections.Dictionary saveData = new Godot.Collections.Dictionary() {
+                {"id", i},
                 {"positionX", playerSpawns[i].Position.X},
                 {"positionY", playerSpawns[i].Position.Z}
             };
@@ -70,6 +75,7 @@ public partial class BoardCreator : Node {
         List<Node3D> enemySpawns = _spawnPoints[Faction.ENEMY];
         for (int i = 0; i < enemySpawns.Count; i++) {
             Godot.Collections.Dictionary saveData = new Godot.Collections.Dictionary() {
+                {"id", i},
                 {"positionX", enemySpawns[i].Position.X},
                 {"positionY", enemySpawns[i].Position.Z}
             };
@@ -100,10 +106,14 @@ public partial class BoardCreator : Node {
     }
 
     public void LoadButton() {
-        Load(fileName, false);
+        Load(new List<Godot.Collections.Array>(), fileName, false);
     }
 
-    public void Load(string fileToLoad = "", bool runtime = true) {
+    public void Load(
+        List<Godot.Collections.Array> playerTroops,
+        string fileToLoad = "",
+        bool runtime = true
+    ) {
         Clear();
         if (fileToLoad != "") {
             fileName = fileToLoad;
@@ -115,6 +125,14 @@ public partial class BoardCreator : Node {
         string jsonString = saveFileAccess.GetAsText();
         Variant result = Json.ParseString(jsonString);
         if (result.VariantType == Variant.Type.Dictionary) {
+            ConfigFile config = new ConfigFile();
+            Error err = config.Load(CONFIG_PATH + fileName + ".cfg");
+            if (runtime && err != Error.Ok) {
+                return;
+            }
+            Godot.Collections.Array enemyTroops = (Godot.Collections.Array)config.GetValue("enemy_troops", "troops");
+            int playerTroopsPlaced = 0;
+            int enemyTroopsPlaced = 0;
             Godot.Collections.Dictionary data = (Godot.Collections.Dictionary)result;
             Godot.Collections.Array tileSaveData = (Godot.Collections.Array)data["tiles"];
             Godot.Collections.Array enemySpawns = (Godot.Collections.Array)data["enemySpawns"];
@@ -129,15 +147,23 @@ public partial class BoardCreator : Node {
                 tile.Load(position, tileType);
 
                 List<Variant> filteredPlayerSpawns = GetSpawnPointsAtPosition(playerSpawns, position);
-                if (!runtime && filteredPlayerSpawns.Count > 0) {
-                    CreateTroopSpawnAtPosition(position, Faction.PLAYER);
+                if (filteredPlayerSpawns.Count > 0) {
+                    if (runtime && playerTroopsPlaced < playerTroops.Count) {
+                        CreateTroopAtPosition(tile, playerTroops[playerTroopsPlaced], Faction.PLAYER);
+                        playerTroopsPlaced++;
+                    }
+                    else {
+                        CreateTroopSpawnAtPosition(position, Faction.PLAYER);                        
+                    }
                 }
 
                 List<Variant> filteredEnemySpawns = GetSpawnPointsAtPosition(enemySpawns, position);
                 if (filteredEnemySpawns.Count > 0) {
-                    Godot.Collections.Dictionary enemyTroopData = (Godot.Collections.Dictionary)filteredEnemySpawns[0];
-                    if (runtime) {
-                        // CreateTroopAtPosition(tile, (Godot.Collections.Array)enemyTroopData["formation"]);
+                    if (runtime && enemyTroopsPlaced < enemyTroops.Count) {
+                        string troopSection = (string)enemyTroops[enemyTroopsPlaced];
+                        Godot.Collections.Array units = (Godot.Collections.Array)config.GetValue(troopSection, "units");
+                        CreateTroopAtPosition(tile, units, Faction.ENEMY);
+                        enemyTroopsPlaced++;
                     }
                     else {
                         CreateTroopSpawnAtPosition(position, Faction.ENEMY);
@@ -199,8 +225,8 @@ public partial class BoardCreator : Node {
         UpdateMarker();
     }
 
-    public Tile GetTileAtPosition() {
-        return _tiles.ContainsKey(_markerPosition) ? _tiles[_markerPosition] : null;
+    public Tile GetTileAtPosition(Vector2I position) {
+        return _tiles.ContainsKey(position) ? _tiles[position] : null;
     }
 
     private Tile CreateTileAtPosition(TileType tileType, Vector2I position) {
@@ -224,19 +250,21 @@ public partial class BoardCreator : Node {
         _spawnPoints[faction].Add(spawnNode);
     }
 
-    private Troop CreateTroopAtPosition(Tile tile, Godot.Collections.Array formation) {
+    public Troop CreateTroopAtPosition(Tile tile, Godot.Collections.Array unitBattleJobs, Faction faction) {
         Node troopNode = Common.GetTroopPrefab.Instantiate();
         Troop troop = troopNode as Troop;
         AddChild(troopNode);
         BattleEntity[] battleEntities = new BattleEntity[Common.MAX_ENTITIES_PER_TROOP];
-        for (int i = 0; i < formation.Count; i++) {
-            if (formation[i].VariantType != Variant.Type.Dictionary) {
+        for (int i = 0; i < unitBattleJobs.Count; i++) {
+            if (unitBattleJobs[i].VariantType != Variant.Type.String) {
                 continue;
             }
             else {
-                Godot.Collections.Dictionary battleEntityData = (Godot.Collections.Dictionary)formation[i];
-                string battleJobString = (string)battleEntityData["type"];
-                BattleJob battleJob = Common.GetEnumFromString<BattleJob>(battleJobString);
+                string battleJobString = (string)unitBattleJobs[i];
+                if (battleJobString == "") {
+                    continue;
+                }
+                BattleJob battleJob = Common.GetEnumFromString<BattleJob>(battleJobString.ToUpper());
                 Node3D battleEntityNode = (Node3D)Common.GetJobPrefabByType(battleJob).Instantiate();
                 BattleEntity battleEntity = battleEntityNode as BattleEntity;
                 AddChild(battleEntityNode);
@@ -247,7 +275,12 @@ public partial class BoardCreator : Node {
             }
         }
         troop.Load(tile, Facing.NORTH, battleEntities);
-        EnemyTroops.Add(troop);
+        if (faction == Faction.PLAYER) {
+            PlayerTroops.Add(troop);
+        }
+        else {
+            EnemyTroops.Add(troop);
+        }
         return troop;
     }
 
@@ -276,7 +309,7 @@ public partial class BoardCreator : Node {
     }
 
     public void Rotate() {
-        Tile tile = GetTileAtPosition();
+        Tile tile = GetTileAtPosition(_markerPosition);
         if (tile != null) {
             tile.Rotate(Vector3.Up, Mathf.DegToRad(ROTATION_PER));
         }

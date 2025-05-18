@@ -1,4 +1,5 @@
 using Godot;
+using System.Collections.Generic;
 
 public partial class GameController : Node {
     [Export] private DataManager _dataManager;
@@ -13,7 +14,6 @@ public partial class GameController : Node {
     public InputController InputController => _inputController;
     public StateMachine StateMachine => _stateMachine;
     public CameraController CameraController => _cameraController;
-    public Tile CurrentTile => _board.GetTileAtPosition();
 
     public override void _Ready() {
         _dataManager.LoadGameData();

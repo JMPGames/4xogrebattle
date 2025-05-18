@@ -1,12 +1,10 @@
-[gd_scene load_steps=4 format=3 uid="uid://dsnjqr3m2v2ol"]
+[gd_scene load_steps=3 format=3 uid="uid://dsnjqr3m2v2ol"]
 
-[ext_resource type="Script" path="res://Script/PreProduction/BoardSpawnPoint.cs" id="1_4jp21"]
 [ext_resource type="Material" uid="uid://ygor2v64sc8g" path="res://assets/materials/green.tres" id="1_pfhgx"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_5tofm"]
 
 [node name="PlayerTroopSpawn" type="Node3D"]
-script = ExtResource("1_4jp21")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
